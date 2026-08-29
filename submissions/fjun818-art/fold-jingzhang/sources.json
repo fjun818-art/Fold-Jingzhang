@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "REGULATORY-PLAN-HD00-1601",
+      "url": "https://ghzrzyw.beijing.gov.cn/",
+      "source_type": "official_public",
+      "usage": "《北京海淀区京张铁路遗址公园沿线（人工智能创新街区重点地区）HD00—1601等街区控制性详细规划（街区层面）（2024年—2035年）》：中规院编制（甲资规甲字21110023），海淀区政府与市规自委批准。本方案引用其文本条款作为法定基准（范围16.7km²、总建筑规模2408.0万㎡上限、人口36.4万/岗位39.7万、一带一轴两心多点、75主导功能分区、6类基准高度分区、13处不可移动文物、第82/83条智慧城市条款）；图纸与图则部分为图像格式未文本化提取，地块级精度限制登记 assumptions.json。"
+    },
+    {
+      "id": "THREE-ZONES-TWO-WINGS-RELEASE",
+      "url": "https://www.bjhd.gov.cn/",
+      "source_type": "official_public",
+      "usage": "海淀区官方发布「三区两翼布局成型，百年京张AI创新带启航世界级人工智能集聚地建设」：三区（学北园AI自主创新加速区/北京AI原点社区/大钟寺AI产业集聚区）与两翼（中关村科技服务翼/小月河场景赋能翼）空间架构及产业事实（2000余家AI企业、26家独角兽、130款备案大模型、3500亿元核心产业规模、9.5万研发人才、30余所高校院所、23.83万㎡学北园载体、320余家企业/74%集聚度/70%青年研发占比、近千万㎡存量空间与100万㎡更新载体）。"
+    }
+  ]
+}
