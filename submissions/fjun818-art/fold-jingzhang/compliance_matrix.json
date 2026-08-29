@@ -486,7 +486,9 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划",
+        "与《城市更新\"十五五\"规划》及国家城市更新政策对齐"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -519,7 +521,10 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "CITY-RENEWAL-15TH-PLAN",
+        "CITY-RENEWAL-ACTION-OPINION",
+        "CITY-RENEWAL-PLANNING-GUIDE"
       ],
       "assumption_ids": [
         "A-CONTROLS-001"
@@ -962,6 +967,7 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
+        "全球 AI 创新生态案例借鉴与产业要素机制",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计"
       ],
@@ -1016,7 +1022,10 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "10 个 AI+ 运营环节场景插画（意向示意）",
+        "一致性验证：与国家城市数字更新行业指引的对齐结论"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1040,7 +1049,8 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "AI运营场景"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1049,7 +1059,8 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "DIGITAL-RENEWAL-GUIDELINE"
       ],
       "assumption_ids": [
         "A-CONTROLS-001"
@@ -1175,7 +1186,8 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "年度活动体系、品牌传播与转化路径（运营建议）"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
