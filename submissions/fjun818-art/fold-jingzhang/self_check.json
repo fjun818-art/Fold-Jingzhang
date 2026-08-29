@@ -85,6 +85,10 @@
         "submissions/fjun818-art/fold-jingzhang/assets/figures/standards-alignment.en.png",
         "submissions/fjun818-art/fold-jingzhang/assets/figures/standards-alignment.png",
         "submissions/fjun818-art/fold-jingzhang/assets/media/comparative-analysis.md",
+        "submissions/fjun818-art/fold-jingzhang/assets/media/vid-ai-01-ai-empowerment.mp4",
+        "submissions/fjun818-art/fold-jingzhang/assets/media/vid-ai-01-captions.vtt",
+        "submissions/fjun818-art/fold-jingzhang/assets/media/vid-ai-01-poster.png",
+        "submissions/fjun818-art/fold-jingzhang/assets/media/vid-ai-01-transcript.md",
         "submissions/fjun818-art/fold-jingzhang/assumptions.json",
         "submissions/fjun818-art/fold-jingzhang/compliance_matrix.json",
         "submissions/fjun818-art/fold-jingzhang/design_depth_matrix.json",
@@ -118,7 +122,7 @@
       "ai_package_stages": {
         "submissions/fjun818-art/fold-jingzhang": "formal"
       },
-      "total_bytes": 15310584,
+      "total_bytes": 35486924,
       "maintainer_bypass": false
     },
     "stderr": ""

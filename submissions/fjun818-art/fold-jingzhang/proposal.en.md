@@ -167,7 +167,7 @@ The following scenes follow the "center-seam fold, two eras facing each other" v
 
 ## Video Demo
 
-Videos are organized into two categories: "Data-Flow Video" and "AI-Empowerment Video". Master specification: MP4 container (H.264 codec), resolution ≥ 1920×1080 (1080p), frame rate ≥ 30fps, AAC audio (44.1kHz, bitrate ≥ 128kbps), single file ≤ 200MB. Each video carries a standardized caption (unique identifier, exact duration, ≤150-word content summary, key timestamp markers) placed below the player. Video assets are in production; once delivered they will be registered in manifest.json and replace the placeholders in this section.
+Videos are organized into two categories: "Data-Flow Video" and "AI-Empowerment Video". Master specification: MP4 container (H.264 codec), resolution ≥ 1920×1080 (1080p), frame rate ≥ 30fps, AAC audio (44.1kHz, bitrate ≥ 128kbps), single file ≤ 200MB. Each video carries a standardized caption (unique identifier, exact duration, ≤150-word content summary, key timestamp markers) placed below the player. VID-AI-01 has been delivered and registered in manifest.json; the data-flow video is in production and will be registered and replace its placeholder once delivered.
 
 ### Data-Flow Video
 
@@ -177,9 +177,9 @@ Videos are organized into two categories: "Data-Flow Video" and "AI-Empowerment 
 
 ### AI-Empowerment Video
 
-- **Identifier**: VID-AI-01; **Duration**: to be marked after editing (mm:ss)
+- **Identifier**: VID-AI-01; **Duration**: 00:10; **File**: `assets/media/vid-ai-01-ai-empowerment.mp4` (MP4 · H.264 High · 1920×1080 · 30fps · AAC 44.1kHz 128kbps · 17.6MB)
 - **Content summary** (≤150 words): an AR/MR experience walkthrough along the 7 time-space fold nodes — the 1909 history layer and the 2035 future layer overlay on the center-seam folding interface, with AI guides reviving historical narratives; heritage sites receive experiential overlays only, with no physical alteration; the video also connects the on-site empowerment effects of the 10 AI+ operation scenarios.
-- **Key timestamps**: 00:00 opening and fold-concept introduction; fold-node AR/MR narrative; AI+ operation scenario sequence; closing (exact timecodes to be marked after editing).
+- **Key timestamps**: 00:00 opening "AI-Empowered · New Paradigm of Centennial Jingzhang" with luminous-track fold imagery; 00:03 center-seam fold of two eras (1909 steam-locomotive layer × 2035 HSR future layer in AR/MR overlay); 00:07 AI node network around the digital-twin base (AI+ empowerment); 00:10 closing.
 
 ## AI Innovation Ecosystem, Talent Profiles and AI+ Scenarios
 

@@ -25,14 +25,14 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "b6e86cf7cc239e9eff13b3622e5793c38354105f6e528bf99b4214cdf30a70df",
+      "sha256": "2c3d56d6298d42d251625772c06bfd152ec4b92253ceb72c31ab85b269791c4f",
       "language": "zh"
     },
     {
       "path": "proposal.en.md",
       "role": "narrative",
       "required": true,
-      "sha256": "21ac9337a0118b6a78276a9e17d4c8a927c98ef99a7c310b99c7c84be15a54d7",
+      "sha256": "4ce22df641aecb66139723c8783a4fdee696bd9c98635970af95aa2c2fbaf364",
       "language": "en",
       "translation_of": "proposal.md"
     },
@@ -64,7 +64,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "fd14fcad0ea33adc5ef521b64caba64f97505f986f537181fa0ae5d93f419950"
+      "sha256": "ee1b44bb19a50c39dfa0d1287180e30ffe88882a78eab5b45dda1e8ec7ecf6cb"
     },
     {
       "path": "compliance_matrix.json",
@@ -88,14 +88,14 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "1fbde3f9235b7614af9c882a28cd929eda3bcbc7ec9e036e14faaeb94d5ca4ef",
+      "sha256": "5d48a719cc40fc11a5c97cd1f0279bd5fac6a08319653e0cbda58eaabdba7cde",
       "language": "zh"
     },
     {
       "path": "report/proposal.en.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "9c68ccd7ee086b86c43e0021575944db1ef30cfa4ab2869b106e1e685203a64f",
+      "sha256": "baf97fd435111e377c449aec6f29924e22b2dc9eac4d4ac96580f4c427249a8a",
       "language": "en",
       "translation_of": "report/proposal.html"
     },
@@ -145,14 +145,14 @@
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "0ae4c9793e397c897f15cf3dd59ff38e41926c2d441b0aa99dcae0b6abfe0cfe",
+      "sha256": "8f1dfb907953168ad39070385989c5558f2d7f241c7319eeabc2e01aa99681cf",
       "language": "zh"
     },
     {
       "path": "visual/index.en.html",
       "role": "visualization",
       "required": true,
-      "sha256": "72d4aac79201ede8ae64da5a85e9b6ae519a4722710615c70b4683160758e8ff",
+      "sha256": "53b9d7977ee6ef0c2d4539d7a223e73d6d233d209c34187daccc9227de98d705",
       "language": "en",
       "translation_of": "visual/index.html"
     },
@@ -561,6 +561,41 @@
       "required": false,
       "language": "zh",
       "sha256": "e54679b708e41efe197229f7e2c5ab9f2fb189825a2076a3ab77ff3bbf3c1ed7"
+    },
+    {
+      "path": "assets/media/vid-ai-01-ai-empowerment.mp4",
+      "role": "video",
+      "required": false,
+      "language": "zh",
+      "title_zh": "AI 赋能 · 百年京张新范式",
+      "title_en": "AI-Empowered · New Paradigm of Centennial Jingzhang",
+      "description_zh": "AI 赋能视频 VID-AI-01（00:10）：片头发光轨道折叠意象 → 中缝折叠双时代对开（1909 蒸汽机车 × 2035 高铁 AR/MR 叠加）→ AI 节点网络环绕数字孪生底座，演示 7 个时空折叠点体验与 10 个 AI+ 运营环节赋能。",
+      "description_en": "AI-Empowerment Video VID-AI-01 (00:10): luminous-track fold opening → center-seam fold of two eras (1909 steam locomotive × 2035 HSR in AR/MR overlay) → AI node network around the digital-twin base, demonstrating the 7 fold nodes and 10 AI+ operation scenarios.",
+      "transcript": "assets/media/vid-ai-01-transcript.md",
+      "poster": "assets/media/vid-ai-01-poster.png",
+      "caption": "assets/media/vid-ai-01-captions.vtt",
+      "sha256": "e62f49a1276a1989fc14f58f99ead538929bf286c29db76386d52c681de496bc"
+    },
+    {
+      "path": "assets/media/vid-ai-01-transcript.md",
+      "role": "transcript",
+      "required": false,
+      "language": "zh",
+      "sha256": "04601b2a962741696bf27934391fdb1e04213cf16d9b4fb5f29c93d81fd0a803"
+    },
+    {
+      "path": "assets/media/vid-ai-01-poster.png",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "sha256": "53e5ff5bf40465e1ddea5f7079d9a89fdfd9bcf8c5a78a976520b59d8824cb50"
+    },
+    {
+      "path": "assets/media/vid-ai-01-captions.vtt",
+      "role": "caption_track",
+      "required": false,
+      "language": "zh",
+      "sha256": "51ae0d0da923a984eb8a337e1dd1fa2cfe6b5b803128566751b1b7e8b7612134"
     },
     {
       "path": "assets/figures/standards-alignment.png",
