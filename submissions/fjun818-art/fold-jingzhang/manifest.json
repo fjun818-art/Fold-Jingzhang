@@ -145,7 +145,7 @@
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "7645b7d7fdc5d1bfa22bad24fad188e132ce2d1c6b6767c2eee9e8d7b313165a",
+      "sha256": "69d84781479a1b77992c3ffb41fdaec863fe81219a42e997c395f674392fc407",
       "language": "zh"
     },
     {
@@ -974,7 +974,7 @@
     }
   ],
   "validation_claim": {
-    "self_checked": true,
+    "self_checked": false,
     "known_blockers": [],
     "data_confidence": "medium",
     "readiness_contract": "persisted-self-check-v1"
