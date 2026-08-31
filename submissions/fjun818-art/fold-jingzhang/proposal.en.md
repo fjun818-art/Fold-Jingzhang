@@ -13,6 +13,8 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 # Fold Jingzhang
 
+*Centennial Jing-Zhang AI Innovation Belt Urban Design · Open Call Submission · drafted with FoldWeaver-v1 AI agent assistance*
+
 **Jingzhang Digital-Intelligent Folding Belt**
 
 This proposal elevates the ~9 km Jingzhang Railway heritage corridor, running from the 2nd to the 5th Ring Road in Haidian, from a "physical transport line" into a "data-element circulation line" and a "carrier of time-space memory": the heritage park forms the fold belt itself (physical layer), a 1+3+N digital-twin base forms the editable city (digital layer), and 7 time-space fold nodes anchored to the statutory heritage list form the experience interface (experience layer) — together a "computable, perceivable, editable" urban renewal demonstration belt. All rigid conclusions are benchmarked against the statutory *HD00-1601 et al. Block Regulatory Detailed Plan (2024–2035)* [source:REGULATORY-PLAN-HD00-1601], industry facts against the official "Three Zones, Two Wings" release [source:THREE-ZONES-TWO-WINGS-RELEASE], and tasks against the open-call announcement and the agent-facing taskbook [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK].
@@ -36,6 +38,8 @@ Usage boundaries of the source registry [source:SOURCE-REGISTRY]:
 
 Because official `SITE_BOUNDARY` and `KEY_AREA` geometry has not been published, this proposal uses provisional boundaries derived from `brief/site-package/geometry/provisional_boundaries.geojson` [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]. `geometry/site_boundary.geojson` and `geometry/key_areas.geojson` are marked `provisional_constraint`, `official_boundary=false`; they serve generation, self-check, visualization and design discussion only — never as official redlines, approval basis or precise-area basis. This organizer data gap does not block content scoring; all layers and metrics will be recalculated once official geometry is published. The provisional boundary has been cross-checked against the regulatory plan's four boundary roads and 9 block codes; the area-caliber difference (11.4 km² overall design area vs 16.7 km² regulatory area) is registered in `assumptions.json` [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm].
 
+This proposal was prepared by Beijing Xinrui Jinshi Digital Intelligence Technology Co., Ltd. with assistance from the AI Agent "FoldWeaver-v1", under full human-expert supervision and confirmation. It is a conceptual recommendation only and does not represent the company's officially reviewed conclusions or a legally binding planning document.
+
 ## Three-Level Scope Framework
 
 The proposal is organized along the announcement's three levels, with the nested calibers disclosed: 43.6 km² strategic research scope (AI industry ecology, positioning, future urban form) ⊃ ~37 km² comprehensive planning scope (official release caliber) ⊃ 16.7 km² regulatory key area (statutory benchmark) ⊃ ~11.4 km² overall design area (announcement task caliber, 1–2 km around the heritage park) ⊃ 368.4 ha of three key detailed-design areas [source:OFFICIAL-ANNOUNCEMENT] [source:REGULATORY-PLAN-HD00-1601]. Caliber differences are registered in `assumptions.json`. Every mandatory task of announcement 1.3/1.4/1.5 and agent.1–agent.6 is mapped in `compliance_matrix.json` to sections, layers, metrics, drawings and HTML evidence [depth:three_level_scope_framework] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT].
@@ -46,17 +50,17 @@ The overall concept is the **Jingzhang Digital-Intelligent Folding Belt**: one "
 
 | Level | Design question | Proposal answer | Data anchor |
 | --- | --- | --- | --- |
-| Strategic research scope | How to organize AI industry ecology and future urban form | "university sourcing – open-source collaboration – enterprise conversion – public experience – global communication" innovation chain + JDSFB three-layer fold structure | compliance_matrix.json, standard_matrix.json |
+| Strategic research scope | How to organize AI industry ecology and future urban form | "university sourcing – open-source collaboration – enterprise conversion – public experience – global communication" innovation chain + the Folding Belt three-layer fold structure | compliance_matrix.json, standard_matrix.json |
 | Overall design area | How industry, renewal, transport and character land on the map | Land-use, building, road, green, public-space and phasing layers plus the data-node network | [data:geometry/land_use.geojson#LU-001], [data:geometry/roads.geojson#ROAD-001] |
 | Key areas | How the three zones reach detailed-design depth | Positioned as Data Origin / Fold Hub / Exchange Port, overlaid with 7 fold nodes | [data:geometry/key_areas.geojson#PROV-KEY-001], [data:geometry/public_space.geojson#FOLD-001] |
 
 ## Strategic Research: Industry and Future Urban Form
 
-The core task at this level is building a world-class AI innovation ecosystem. Per the official release, Haidian already hosts 2,000+ AI enterprises, 26 unicorns, 130 registered foundation models, an AI core industry exceeding RMB 350 billion, 95,000 AI R&D talents, and 30+ universities and institutes nearby [source:THREE-ZONES-TWO-WINGS-RELEASE]. The regulatory plan further registers 9 existing higher-education institutions (8 universities including UCAS, Beijing Open University, CUFE, BJTU, Capital University of Physical Education, CUPL, BUPT and BNU, plus 1 secondary vocational school), some earmarked for relocation to Yanqing and Xiong'an; the vacated campus space will fill regional gaps — the statutory source of JDSFB's "opportunity-space inventory" [source:REGULATORY-PLAN-HD00-1601] (Arts. 6, 42).
+The core task at this level is building a world-class AI innovation ecosystem. Per the official release, Haidian already hosts 2,000+ AI enterprises, 26 unicorns, 130 registered foundation models, an AI core industry exceeding RMB 350 billion, 95,000 AI R&D talents, and 30+ universities and institutes nearby [source:THREE-ZONES-TWO-WINGS-RELEASE]. The regulatory plan further registers 9 existing higher-education institutions (8 universities including UCAS, Beijing Open University, CUFE, BJTU, Capital University of Physical Education, CUPL, BUPT and BNU, plus 1 secondary vocational school), some earmarked for relocation to Yanqing and Xiong'an; the vacated campus space will fill regional gaps — the statutory source of the Folding Belt's "opportunity-space inventory" [source:REGULATORY-PLAN-HD00-1601] (Arts. 6, 42).
 
-JDSFB organizes these facts into a "one spine, two faces" fold structure: the three zones form the longitudinal spine (data elements originate → process → circulate), while the two wings form the east-west unfolding faces (service enablement × scenario validation) [depth:overall_spatial_structure] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]:
+The Folding Belt organizes these facts into a "one spine, two faces" fold structure: the three zones form the longitudinal spine (data elements originate → process → circulate), while the two wings form the east-west unfolding faces (service enablement × scenario validation) [depth:overall_spatial_structure] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]:
 
-| Key zone | Official positioning and facts | JDSFB theme | Functional overlay |
+| Key zone | Official positioning and facts | the Folding Belt theme | Functional overlay |
 | --- | --- | --- | --- |
 | North · Xuebeiyuan AI Acceleration Zone | Dongsheng Science Park Xuebeiyuan campus, 238,300 sqm GFA, opened July 2026, NSFC signed in; national computing base, AI chips, foundational algorithm platforms, 1,200 sqm exhibition space, AI go-global service platform [source:THREE-ZONES-TWO-WINGS-RELEASE] | **Data Origin** | Urban data sandbox, edge-computing cluster, vertical-model training ground, Algorithm Contribution Index HQ (computing × data dual base) |
 | Center · Beijing AI Origin Community | Wudaokou core, ringed by Tsinghua–Peking–CAS; 320+ AI firms, >74% industry concentration, >70% young R&D staff; "5+5" rent and computing subsidies, 15-minute talent living circle [source:THREE-ZONES-TWO-WINGS-RELEASE] | **Fold Hub** | Editable-city demonstration zone, AR/MR time-space narrative nodes, developer co-creation community, smart-station network |
@@ -64,9 +68,9 @@ JDSFB organizes these facts into a "one spine, two faces" fold structure: the th
 | West wing · Zhongguancun Tech-Services | Global factor connector: VC, IP, cross-border commerce, legal, IPO coaching | Service face | Business and legal interface of the Data Covenant: data-asset registration, compliance review, cross-border data-flow consulting |
 | East wing · Xiaoyue River Scenario | Smart-city testbed: embodied AI, AI healthcare, digital film production, smart tourism pilots | Scenario face | Field-application outlet for data elements: adaptive public space, affective computing, AI guides tested first along the waterfront |
 
-The three positionings and five functions are each grounded in JDSFB mechanisms and spaces, closing the functional loop [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]:
+The three positionings and five functions are each grounded in the Folding Belt mechanisms and spaces, closing the functional loop [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]:
 
-| Official requirement | JDSFB mechanism response | Spatial anchor |
+| Official requirement | the Folding Belt mechanism response | Spatial anchor |
 | --- | --- | --- |
 | Positioning: centennial Jingzhang culture belt | 7 fold nodes + time-space narrative co-creation | Heritage corridor and Art. 26 anchors |
 | Positioning: urban AI living-experience belt | 10 AI scenario cards + public experience route | Belt, community lounges, Xiaoyue waterfront |
@@ -83,7 +87,7 @@ The naming system serves the identity of "centennial Jingzhang culture belt, urb
 
 As required by the taskbook, six public global AI-ecosystem cases are reviewed for transferable mechanisms (qualitative facts from published sources, cited as method references rather than data):
 
-| Case | Publicly documented ecosystem mechanism | Transfer design for JDSFB |
+| Case | Publicly documented ecosystem mechanism | Transfer design for the Folding Belt |
 | --- | --- | --- |
 | Silicon Valley (Stanford–industry–VC loop) | University origin + venture-capital density + failure-tolerant startup culture | Origin Community "campus-origin → open-source → enterprise" chain + west-wing VC interface |
 | Toronto–Waterloo corridor (Vector Institute) | National institute anchor + university cluster + co-located corporate labs | Xuebeiyuan national computing base and foundational research platforms |
@@ -98,7 +102,7 @@ Eight-factor guarantee mechanism (land, space, industry, capital, talent, comput
 
 The overall design area must reach the urban-design depth of a regulatory detailed plan. This proposal aligns directly with the statutory structure "one belt, one axis, two centers, multiple nodes" (Art. 9) [source:REGULATORY-PLAN-HD00-1601] [standard:MOHURD-CONTROL-DETAILED-PLANNING] [depth:overall_spatial_structure]:
 
-| Statutory structure | Content | JDSFB alignment |
+| Statutory structure | Content | the Folding Belt alignment |
 | --- | --- | --- |
 | One belt | Jingzhang Railway Heritage Park industry-innovation belt | The fold belt itself — physical heritage corridor × digital data corridor |
 | One axis | Zhongguancun Street innovation axis | Service-interface corridor of the Data Covenant (west wing) |
@@ -109,7 +113,7 @@ The renewal framework responds to the official "nearly 10 million sqm of stock s
 
 ### Jingzhang Data Covenant and Algorithm Contribution Index (statutory source: Art. 82)
 
-Article 82 of the regulatory plan explicitly calls to "explore reform paths for market-based allocation of data elements" [source:REGULATORY-PLAN-HD00-1601]. JDSFB deepens this statutory clause into an implementable "Jingzhang Data Covenant":
+Article 82 of the regulatory plan explicitly calls to "explore reform paths for market-based allocation of data elements" [source:REGULATORY-PLAN-HD00-1601]. The Folding Belt deepens this statutory clause into an implementable "Jingzhang Data Covenant":
 
 - **Three-tier public-data authorization list**: L1 open tier (anonymized aggregate city-operation data, no authorization needed), L2 authorized tier (district-level sensing data, application after enterprise KYC), L3 sandbox tier (sensitive-scenario data, usable-but-invisible inside the Xuebeiyuan data sandbox only); target coverage at [metric:data_covenant_coverage_ratio].
 - **Algorithm Contribution Index**: enterprises and developers trade city-optimizing algorithms for data-use rights; index = model invocation frequency × scenario weight × effect score (baseline and formula at [metric:algorithm_contribution_index]); top contributors receive a spatial reward ladder (testbed priority → showcase slots → rent-reduction recommendations).
@@ -167,19 +171,19 @@ The following scenes follow the "center-seam fold, two eras facing each other" v
 
 ## Video Demo
 
-Videos are organized into two categories: "Data-Flow Video" and "AI-Empowerment Video". Master specification: MP4 container (H.264 codec), resolution ≥ 1920×1080 (1080p), frame rate ≥ 30fps, AAC audio (44.1kHz, bitrate ≥ 128kbps), single file ≤ 200MB. Each video carries a standardized caption (unique identifier, exact duration, ≤150-word content summary, key timestamp markers) placed below the player. VID-AI-01 has been delivered and registered in manifest.json; the data-flow video is in production and will be registered and replace its placeholder once delivered.
+Videos are organized into two categories: "Data-Flow Video" and "AI-Empowerment Video". Master specification: MP4 container (H.264 codec), resolution ≥ 1920×1080 (1080p), frame rate ≥ 30fps, AAC audio (44.1kHz, bitrate ≥ 128kbps), single file ≤ 200MB. Each video carries a standardized caption (unique identifier, exact duration, ≤150-word content summary, key timestamp markers) placed below the player. Both master clips have been delivered and registered in manifest.json.
 
 ### Data-Flow Video
 
-- **Identifier**: VID-DATA-01; **Duration**: to be marked after editing (mm:ss)
+- **Identifier**: VID-DATA-01; **Duration**: 00:30; **File**: `assets/media/vid-data-01-data-flow.mp4` (MP4 · H.264 High · 1920×1080 · 30fps · AAC 44.1kHz 128kbps · 7.2MB)
 - **Content summary** (≤150 words): demonstrates the "sense-decide-act-feedback" data loop — sensing at 12 data nodes flows into the 1+3+N digital-twin base, is authorized through the Jingzhang Data Covenant three-tier lists and measured by the Algorithm Contribution Index, drives the 10 AI+ operation scenarios, and returns operational data to the base for iteration.
-- **Key timestamps**: 00:00 opening and three-tier scope orientation; main data-flow demonstration; covenant authorization and compliance audit; closing (exact timecodes to be marked after editing).
+- **Key timestamps**: 00:00 opening — the city awakens in blue-hour light with three-tier scope orientation; 00:08 12 data nodes pulse into activation, data streams flow into the digital-twin base; 00:15 3D model assembles layer by layer and authorization halos unfold in the operations hall; 00:22 ten AI scenarios flash by (autonomous driving, AR wayfinding, etc.); 00:27 data streams converge back into a closed loop; 00:30 closing — the city's night settles.
 
 ### AI-Empowerment Video
 
-- **Identifier**: VID-AI-01; **Duration**: 00:10; **File**: `assets/media/vid-ai-01-ai-empowerment.mp4` (MP4 · H.264 High · 1920×1080 · 30fps · AAC 44.1kHz 128kbps · 17.6MB)
+- **Identifier**: VID-AI-01; **Duration**: 00:30; **File**: `assets/media/vid-ai-01-ai-empowerment.mp4` (MP4 · H.264 High · 1920×1080 · 30fps · AAC 44.1kHz 128kbps · 7.2MB)
 - **Content summary** (≤150 words): an AR/MR experience walkthrough along the 7 time-space fold nodes — the 1909 history layer and the 2035 future layer overlay on the center-seam folding interface, with AI guides reviving historical narratives; heritage sites receive experiential overlays only, with no physical alteration; the video also connects the on-site empowerment effects of the 10 AI+ operation scenarios.
-- **Key timestamps**: 00:00 opening "AI-Empowered · New Paradigm of Centennial Jingzhang" with luminous-track fold imagery; 00:03 center-seam fold of two eras (1909 steam-locomotive layer × 2035 HSR future layer in AR/MR overlay); 00:07 AI node network around the digital-twin base (AI+ empowerment); 00:10 closing.
+- **Key timestamps**: 00:00 opening — aged rails glow golden and unfold like origami into a luminous passage; 00:08 the seam of time-space opens, center-seam fold of two eras (1909 steam locomotive × 2035 maglev); 00:14 seven cultural anchors flash as AR holograms above the green corridor; 00:18 a 1909 engineer's hologram narrates history in the station hall; 00:22 rapid scene shifts — data-governance hall, laboratories, roadshow lounge; 00:27 the digital-twin base hovers in the night sky, seven anchors join into a star network; 00:30 closing — the glow fades into ten thousand household lights.
 
 ## AI Innovation Ecosystem, Talent Profiles and AI+ Scenarios
 
@@ -200,7 +204,7 @@ The proposal builds spatial-demand profiles for AI talent and enterprises — R&
 | 03 Edge-computing station | Nodes across the overall design area | 1+3+N street-level node prototype combined with public services and low-carbon energy |
 | 04 AI slow-mobility navigation | Heritage-park vitality belt | Explainable wayfinding and low-intrusion sensing for breakpoints, crowding and accessibility |
 | 05 Dazhongsi international roadshow lounge | Dazhongsi AI Industry Cluster | Showcase, negotiation, media launch and international exchange for agent/terminal/content firms |
-| 06 Demand-responsive & autonomous bus feeder | Rail stations and corridor nodes | Implements the plan's characteristic-bus clause (Art. 52) with AI-dispatched micro-circulation feeders [source:REGULATORY-PLAN-HD00-1601] |
+| 06 Demand-responsive & autonomous bus feeder | Rail stations and corridor nodes | Implements the plan's characteristic-bus clause (Art. 52) with AI-dispatched micro-circulation feeders, and reserves a vehicle-road coordination interface for unmanned delivery vehicles (pilot-testing nature) [source:REGULATORY-PLAN-HD00-1601] |
 | 07 Adaptive public space | Xiaoyue River wing first | Plazas and streets auto-adjust lighting, seating and functions by footfall, weather and events; target ratio at [metric:adaptive_public_space_ratio] |
 | 08 AI historical narration | 7 fold nodes | LLM-revived historical figures such as Zhan Tianyou as AI guides telling the centennial Jingzhang story |
 | 09 Affective-computing public space | East-wing waterfront + community lounges | Real-time sensing of crowd emotion and needs, dynamic environmental tuning, linked to AI+ elderly care |
@@ -248,7 +252,7 @@ The table below resolves each of the 10 operation links into a verifiable "sense
 
 ### Consistency Verification: Alignment with the National Digital City-Renewal Guideline
 
-This section reports the **consistency-verification result** between the JDSFB scenario design and the latest national guideline for city-wide digital transformation and digital city renewal: after item-by-item comparison, the 10 AI+ operation links are consistent with the national guideline across five dimensions — scenario classification, general principles, digital base, scenario structure, and operation mechanism [source:DIGITAL-RENEWAL-GUIDELINE].
+This section reports the **consistency-verification result** between the Folding Belt scenario design and the latest national guideline for city-wide digital transformation and digital city renewal: after item-by-item comparison, the 10 AI+ operation links are consistent with the national guideline across five dimensions — scenario classification, general principles, digital base, scenario structure, and operation mechanism [source:DIGITAL-RENEWAL-GUIDELINE].
 
 ![Consistency verification of AI+ scenarios against the national digital city-renewal guideline](assets/figures/standards-alignment.en.png)
 
@@ -260,7 +264,7 @@ This section reports the **consistency-verification result** between the JDSFB s
 | Scenario structure | Each link is organized as "goal–people–activity–resource–environment–value–outcome–operation," consistent with the guideline's recommended scenario organization |
 | Operation mechanism | Each link defines an operation loop and sustainable pathway; all are operational proposals only and do not constitute government investment, approval or revenue commitments |
 
-**Verification conclusion**: the JDSFB scenario system is directionally consistent, structurally compatible and operationally connectable with the national digital city-renewal guideline, and can serve as a conceptual reference for applying the guideline to AI-innovation-district scenarios. All AI uses also respect this proposal's "Ethics and Data Governance" boundary.
+**Verification conclusion**: the Folding Belt scenario system is directionally consistent, structurally compatible and operationally connectable with the national digital city-renewal guideline, and can serve as a conceptual reference for applying the guideline to AI-innovation-district scenarios. All AI uses also respect this proposal's "Ethics and Data Governance" boundary.
 
 ### Ethics and Data Governance
 
@@ -268,7 +272,7 @@ Sensing data is processed locally (de-identified inside district edge nodes befo
 
 ## Land Use, Building Scale and Retain-Renovate-Demolish Plan
 
-Land use follows public standards for territorial-space survey, planning and use-control classification [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE], forming complete, closed, seamless zoning [data:geometry/land_use.geojson#LU-001]. Buildings are classified as retained / renovated / renewed / new; height, massing, interface and character controls are governed by [depth:height_massing_character]; the retain-renovate-demolish method is governed by [depth:retain_renovate_demolish] and aligned with the plan's "retain, renovate, demolish, supplement" strategy (Art. 84) [source:REGULATORY-PLAN-HD00-1601]. Over 50% of stock residential land is pre-2000 old residential compounds (Art. 39); their statutory renewal path is multi-channel advancement by district platforms and central/SOE vehicles, green-building retrofitting and smart-community upgrading, with which JDSFB's AI+ elderly-care and adaptive public-space scenarios are packaged first.
+Land use follows public standards for territorial-space survey, planning and use-control classification [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE], forming complete, closed, seamless zoning [data:geometry/land_use.geojson#LU-001]. Buildings are classified as retained / renovated / renewed / new; height, massing, interface and character controls are governed by [depth:height_massing_character]; the retain-renovate-demolish method is governed by [depth:retain_renovate_demolish] and aligned with the plan's "retain, renovate, demolish, supplement" strategy (Art. 84) [source:REGULATORY-PLAN-HD00-1601]. Over 50% of stock residential land is pre-2000 old residential compounds (Art. 39); their statutory renewal path is multi-channel advancement by district platforms and central/SOE vehicles, green-building retrofitting and smart-community upgrading, with which the Folding Belt's AI+ elderly-care and adaptive public-space scenarios are packaged first.
 
 **Rigid scale constraint**: under no scenario may total floor area exceed the statutory ceiling of 24.08 million sqm [metric:total_floor_area_ceiling_sqm] (Arts. 7/13); the statutory FAR baseline is ~1.46 (24.08 million sqm ÷ 16.456 million sqm urban construction land, formula and plan basis annotated) [metric:statutory_floor_area_intensity]; building footprint ratio within the submitted site [metric:floor_area_ratio]. Population and employment simulation baselines use statutory values: ~364,000 residents [metric:population_baseline] and ~397,000 jobs [metric:employment_baseline]. For parcel-level height, intensity and setback indicators — unreadable because the plan charts are not digitized — all conclusions are marked "subject to confirmation of official chart conditions" and never presented as approved values (registered in `assumptions.json`).
 
@@ -278,13 +282,13 @@ Transport aligns with statutory clauses: rail-station integration control (Art. 
 
 ![Composite system of mobility, blue-green and public space](assets/figures/mobility-bluegreen.png)
 
-Municipal and public-service facilities implement the plan's special coordination: storm-sewage separation (100% storm-drain coverage in built-up areas by 2035, Art. 58), distributed PV (Art. 60), and multi-network fused 5G (Art. 63), integrated with JDSFB new infrastructure (distributed energy, edge computing, edge nodes) [depth:municipal_new_infrastructure]. Sponge-city management follows the statutory annual-runoff-capture zoning (≥85% along waterfronts and the heritage-park corridor, 75–85% in transition zones, 65–75% in general built-up areas, per Art. 67 and the sponge-city plan map); JDSFB stormwater detention nodes are sited first where the ≥85% zone meets blue-green corridors. Facility standards, service radii, operation models and phasing logic are stated; missing engineering data — pipelines, energy, drainage, flood control (South Long River–Zhuan River and North Moat at 100-year, Tucheng Gou at 50-year, Art. 27), fire protection — are listed as preconditions for formal deepening [data:geometry/constraints.geojson#CONSTRAINTS].
+Municipal and public-service facilities implement the plan's special coordination: storm-sewage separation (100% storm-drain coverage in built-up areas by 2035, Art. 58), distributed PV (Art. 60), and multi-network fused 5G (Art. 63), integrated with the Folding Belt new infrastructure (distributed energy, edge computing, edge nodes) [depth:municipal_new_infrastructure]. Sponge-city management follows the statutory annual-runoff-capture zoning (≥85% along waterfronts and the heritage-park corridor, 75–85% in transition zones, 65–75% in general built-up areas, per Art. 67 and the sponge-city plan map); the Folding Belt stormwater detention nodes are sited first where the ≥85% zone meets blue-green corridors. Facility standards, service radii, operation models and phasing logic are stated; missing engineering data — pipelines, energy, drainage, flood control (South Long River–Zhuan River and North Moat at 100-year, Tucheng Gou at 50-year, Art. 27), fire protection — are listed as preconditions for formal deepening [data:geometry/constraints.geojson#CONSTRAINTS].
 
 ## Blue-Green Space, Public Space and Urban Character
 
 Blue-green space implements the statutory "three belts, six axes, multiple corridors and centers" landscape structure: the three vitality landscape belts of the Jingzhang Railway Heritage Park, South Long River and Xiaoyue River (Art. 17) [source:REGULATORY-PLAN-HD00-1601] [depth:blue_green_public_space]. With the heritage-park vitality belt as the backbone, the proposal delivers a north–south through, east–west connected system of walkways, bikeways and green space, identifying slow-mobility breakpoints, ring-road crossings and the park's north/south gateway nodes [data:geometry/green_space.geojson#GREEN-001] [data:geometry/public_space.geojson#PUBLIC-001]. Recalculable green and public-space ratios are given at [metric:green_ratio] and [metric:public_space_ratio] respectively.
 
-Public space implements the statutory garden-city scenes (Art. 33), 8 community lounges (5-minute walking circles, Art. 38), the four-tier recreation system (specialty parks, composite public spaces, community parks, pocket parks, Art. 29) and the three-level greenway network (city–district–community, Art. 30); JDSFB adaptive public spaces are tested first at community lounges and pocket parks. Urban character follows the four statutory character zones (innovation core, university research, livable residential, waterfront vitality) and five street-type controls, fusing Jingzhang railway culture, Zhongguancun innovation culture and AI innovation culture [standard:MOHURD-URBAN-DESIGN-MEASURES]. The AI pilgrimage-landmark system = 7 fold nodes + the "折" (fold) visual symbol + the Algorithm Contribution honor wall (names displayed only with consent); all brands, fonts, images, portraits and enterprise logos are rights-cleared; character controls distinguish statutory controls, design suggestions and to-be-confirmed conditions, with no pseudo-precise control lines.
+Public space implements the statutory garden-city scenes (Art. 33), 8 community lounges (5-minute walking circles, Art. 38), the four-tier recreation system (specialty parks, composite public spaces, community parks, pocket parks, Art. 29) and the three-level greenway network (city–district–community, Art. 30); the Folding Belt adaptive public spaces are tested first at community lounges and pocket parks. Urban character follows the four statutory character zones (innovation core, university research, livable residential, waterfront vitality) and five street-type controls, fusing Jingzhang railway culture, Zhongguancun innovation culture and AI innovation culture [standard:MOHURD-URBAN-DESIGN-MEASURES]. The AI pilgrimage-landmark system = 7 fold nodes + the "折" (fold) visual symbol + the Algorithm Contribution honor wall (names displayed only with consent); all brands, fonts, images, portraits and enterprise logos are rights-cleared; character controls distinguish statutory controls, design suggestions and to-be-confirmed conditions, with no pseudo-precise control lines.
 
 AI public-space component library (modular, detachable, reusable "AI city plug-ins"): ① edge-computing stations (street-level node cabins); ② detachable AR guide pillars (fold-node narrative terminals, never intruding into heritage control belts); ③ adaptive seating and lighting units (adjusting to footfall and weather); ④ public code-contribution walls (open-source honor interface); ⑤ Data Covenant service kiosks (authorization applications, purpose registration, audit queries); ⑥ slow-mobility information signs (explainable wayfinding and accessibility hints). All components use temporary-facility status, standardized interfaces and a unified style manual, ready for professional teams to deepen into a construction-grade product family.
 
@@ -356,11 +360,11 @@ The brand and communication visual system reuses the "折" symbol and center-sea
 
 ## Alignment with the National 15th Five-Year Urban-Renewal Plan and Policies
 
-This section aligns JDSFB with the national 15th Five-Year Urban-Renewal Plan, the national guiding opinion on sustained urban-renewal action, and the national urban-renewal planning guide, keeping the proposal consistent with the country's top-level urban-renewal guidance in guiding thought, strategic objectives, key tasks and implementation requirements [source:CITY-RENEWAL-15TH-PLAN] [source:CITY-RENEWAL-ACTION-OPINION] [source:CITY-RENEWAL-PLANNING-GUIDE].
+This section aligns the Folding Belt with the national 15th Five-Year Urban-Renewal Plan, the national guiding opinion on sustained urban-renewal action, and the national urban-renewal planning guide, keeping the proposal consistent with the country's top-level urban-renewal guidance in guiding thought, strategic objectives, key tasks and implementation requirements [source:CITY-RENEWAL-15TH-PLAN] [source:CITY-RENEWAL-ACTION-OPINION] [source:CITY-RENEWAL-PLANNING-GUIDE].
 
 ### Key-Domain Alignment
 
-| National key domain | Core requirement | JDSFB alignment design |
+| National key domain | Core requirement | the Folding Belt alignment design |
 | --- | --- | --- |
 | Spatial-layout optimization | Structural optimization, functional improvement, mixed land development and lawful use conversion, positive list | Statutory "belt-axis-two-centers-nodes" structure; low-efficiency opportunity spaces identified from the 75 dominant-function zones; use conversion per positive list |
 | Heritage protection & inheritance | Survey-before-build, "no more demolition of the old town", no fake-rebuild, activation without over-commercialization | All 7 fold nodes anchored to the statutory heritage list, AR/MR experience-overlay only with no physical change; AI narration is "protection through use", commercialization strictly limited |
@@ -370,7 +374,7 @@ This section aligns JDSFB with the national 15th Five-Year Urban-Renewal Plan, t
 
 ### Implementation Pathway, Phased Goals and Timeline
 
-Following the national three-tier "special plan → district programming → project implementation plan" system and the "survey-first, no renewal without survey" loop, the JDSFB pathway is divided into four phases (a conceptual time frame; actual delivery follows official plans):
+Following the national three-tier "special plan → district programming → project implementation plan" system and the "survey-first, no renewal without survey" loop, the Folding Belt pathway is divided into four phases (a conceptual time frame; actual delivery follows official plans):
 
 | Phase | Timeline | Phased goal | Linked projects |
 | --- | --- | --- | --- |
@@ -381,9 +385,9 @@ Following the national three-tier "special plan → district programming → pro
 
 ### Policy Support, Funding Assurance and Monitoring-Evaluation
 
-- **Policy support**: builds on national urban-renewal land policy (mixed development, lawful use conversion with a positive list, low-efficiency stock activation, a transition-period policy of up to 5 years) and the housing full-lifecycle safety system; JDSFB's detachable "AI city plug-ins" are managed as temporary facilities, fitting the conversion and mixed-use orientation.
-- **Funding assurance**: references the national diversified financing framework — central budgetary investment and central fiscal support, local-government special bonds (no illegal borrowing), institutional credit, infrastructure REITs and asset-backed securities, the new government-social-capital cooperation mechanism, and the "beneficiary pays" government/market/resident cost-sharing mechanism. All JDSFB funding paths are mechanism proposals only, not investment commitments or financing arrangements.
-- **Monitoring & evaluation**: aligns with the national "survey-identify, renew-solve, evaluate-effect, consolidate-improve" loop and the plan's dynamic monitoring, mid-term and final evaluation requirements; JDSFB uses the CIM digital base to support the city-survey evaluation platform, with the algorithm contribution index and scenario-usage frequency as operational dynamic-monitoring indicators, and manages the project pool via "entry–exit–dynamic adjustment".
+- **Policy support**: builds on national urban-renewal land policy (mixed development, lawful use conversion with a positive list, low-efficiency stock activation, a transition-period policy of up to 5 years) and the housing full-lifecycle safety system; the Folding Belt's detachable "AI city plug-ins" are managed as temporary facilities, fitting the conversion and mixed-use orientation.
+- **Funding assurance**: references the national diversified financing framework — central budgetary investment and central fiscal support, local-government special bonds (no illegal borrowing), institutional credit, infrastructure REITs and asset-backed securities, the new government-social-capital cooperation mechanism, and the "beneficiary pays" government/market/resident cost-sharing mechanism. All the Folding Belt funding paths are mechanism proposals only, not investment commitments or financing arrangements.
+- **Monitoring & evaluation**: aligns with the national "survey-identify, renew-solve, evaluate-effect, consolidate-improve" loop and the plan's dynamic monitoring, mid-term and final evaluation requirements; the Folding Belt uses the CIM digital base to support the city-survey evaluation platform, with the algorithm contribution index and scenario-usage frequency as operational dynamic-monitoring indicators, and manages the project pool via "entry–exit–dynamic adjustment".
 
 ## Metric System, Area Recalculation and Compliance Matrix
 
@@ -443,7 +447,7 @@ Below are executable recalculation formulas, confidence levels, error sources an
 
 The following table checks each statutory clause actually cited by this proposal as "clause point → response → verification → risk & fallback," with each response located to a concrete section, layer or metric so responsiveness is machine-checkable `[source:REGULATORY-PLAN-HD00-1601]`.
 
-| Clause | Plan point | JDSFB response | Verification | Risk & fallback |
+| Clause | Plan point | the Folding Belt response | Verification | Risk & fallback |
 | --- | --- | --- | --- | --- |
 | Art. 2 | Area 16.7 sq km, 9 blocks | Statutory basis in the three-scope framework; nested with the announcement's 11.4 sq km scope (A-SCOPE-NESTED-001) | `site-overview` figure, metrics constants | Official boundary unreleased; fallback: plan four-shifts + provisional cross-check |
 | Art. 7 | Pop. 364k / jobs 397k / ceiling 24.08M sqm | Baselines as hard constraints and scenario basis | population/employment/total-floor metrics | None (statutory) |
@@ -469,6 +473,8 @@ The compliance matrix is the master task-responsiveness file: every mandatory ta
 Risks and data gaps are checked jointly by the risk depth item, the constraints layer and the site package [depth:risk_missing_data] [data:geometry/constraints.geojson#CONSTRAINTS] [source:SITE-PACKAGE]. Key risks: official boundary and key-area polygons not yet published (fallback: provisional boundary + cross-check against the plan's boundary roads); plan charts not digitized (fallback: cite textual clauses only, parcel-level conclusions downgraded to to-be-confirmed); floor-area overrun risk (control: 24.08 million sqm written into generation constraints and self-checks); heritage no-build risk (control: overlay-only at heritage sites, no sensors inside protection areas or class-1 control belts, no data nodes in underground no-build zones) [source:REGULATORY-PLAN-HD00-1601].
 
 This proposal claims no official approval, no approved regulatory plan, no final land ownership, no final construction scale and no guaranteed implementation. The AI agent is responsible for facts, sources, copyright, spatial data, metrics and expression; maintainers and professional reviewers may request revisions or reject based on self-check results, spatial review and the compliance matrix. Architectural design-depth provisions activate once official documents are obtained; they are currently managed as a data-gap item [standard:MOHURD-ARCH-DESIGN-DEPTH-2016].
+
+Preparing entity statement: This proposal was prepared by Beijing Xinrui Jinshi Digital Intelligence Technology Co., Ltd. with assistance from the AI Agent (FoldWeaver-v1) and is an open co-creation concept suggestion. The content is provided for discussion only and does not constitute the company's official endorsement, authorization or commitment to any planning conclusion.
 
 ## References
 

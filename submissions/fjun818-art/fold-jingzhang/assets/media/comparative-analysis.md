@@ -150,7 +150,7 @@ Beyond international benchmarking, this report verifies the consistency of the F
 | 运营机制 | 各环节明确运营闭环与可持续路径，均为运营建议，不构成政府投资/审批/收益承诺 | ✅ 一致 |
 
 **结论**：the Folding Belt 场景体系与国家城市数字更新行业指引方向一致、结构兼容、机制可对接，同时通过「国际创新街区对标」（差异化优势）与「国家行业指引一致性验证」（合规与方向）双重校验，兼具前瞻性、合规性与可转化性。
-**Conclusion**: the the Folding Belt scenario system is directionally consistent, structurally compatible and operationally connectable with the national digital city-renewal guideline. Passing both the international-district benchmark (differentiation) and the national-guideline consistency check (compliance & direction), it combines foresight, compliance and transferability.
+**Conclusion**: the Folding Belt scenario system is directionally consistent, structurally compatible and operationally connectable with the national digital city-renewal guideline. Passing both the international-district benchmark (differentiation) and the national-guideline consistency check (compliance & direction), it combines foresight, compliance and transferability.
 
 ---
 
