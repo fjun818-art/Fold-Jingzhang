@@ -145,14 +145,14 @@
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "69d84781479a1b77992c3ffb41fdaec863fe81219a42e997c395f674392fc407",
+      "sha256": "2526b6353edd0893d76fe16000fc58e005b7675b1773e335e0d2d3c71d92229b",
       "language": "zh"
     },
     {
       "path": "visual/index.en.html",
       "role": "visualization",
       "required": true,
-      "sha256": "6bdc2bc087d8ab45bd6ca30636b71452a7c278982c6efbd74d5c109a5809d6c7",
+      "sha256": "d5c3f4e5baba9b44971396317d6330f464ffbf74612c41fff8b34776a54e92f1",
       "language": "en",
       "translation_of": "visual/index.html"
     },
