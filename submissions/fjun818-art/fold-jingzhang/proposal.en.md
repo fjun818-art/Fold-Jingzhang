@@ -23,7 +23,7 @@ This proposal elevates the ~9 km Jingzhang Railway heritage corridor, running fr
 
 The primary basis of this formal submission is the official prequalification announcement issued by the Haidian Branch of the Beijing Municipal Commission of Planning and Natural Resources [source:OFFICIAL-ANNOUNCEMENT], with the maintainer-registered provisional boundaries, key areas, enums, metrics and source lists in `brief/site-package/` as machine-readable basis [source:SITE-PACKAGE]. Before generating the design, the agent read `design_brief.json`, `sources.json`, `enums/`, `data/source_registry.json` and `data/processed/agent_fact_pack.md`; every design judgement is decomposed into traceable sources, recalculable metrics, verifiable layers and human-reviewable assumptions [depth:existing_conditions_diagnosis].
 
-Compared with other entries, this proposal additionally obtained and cites in full two key documents:
+Compared with other entries, this proposal additionally obtained and cites two key documents (both are **participant-submitted evidence pending source-registry review**: until data/source_registry.json contains the corresponding approved_formal records, this proposal does not claim formally verified registration for them and relies on fair quotation of publicly obtained texts):
 
 1. **Statutory regulatory plan**: *Regulatory Detailed Plan (Block Level) for HD00-1601 et al. Blocks along the Jingzhang Railway Heritage Park (AI Innovation Block Key Area), Haidian District, Beijing (2024–2035)* (prepared by CAUPD, qualification no. 21110023) [source:REGULATORY-PLAN-HD00-1601]. Its rigid controls — a 16.7 km² planning area (Chengfu Road to the north, Xizhimenwai Street to the south, Zhongguancun Street to the west, Xinjiekouwai Street to the east; 9 blocks), a 24.08 million sqm total floor-area ceiling, ~364,000 permanent residents, ~397,000 jobs, the statutory structure "one belt, one axis, two centers, multiple nodes", 75 dominant-function zones, 6 baseline height classes, and 13 immovable heritage sites — take precedence over any competition narrative; every spatial conclusion of this proposal is checked item by item (see `[source:Regulatory Plan Art. N]` annotations throughout).
 2. **Official "Three Zones, Two Wings" release**: Haidian's official release on the centennial Jingzhang AI innovation belt, defining Xuebeiyuan AI Acceleration Zone (north), Beijing AI Origin Community (center), Dazhongsi AI Industry Cluster (south), the Zhongguancun tech-services wing (west) and the Xiaoyue River scenario wing (east), together with all industry facts [source:THREE-ZONES-TWO-WINGS-RELEASE].
@@ -98,6 +98,21 @@ As required by the taskbook, six public global AI-ecosystem cases are reviewed f
 
 Eight-factor guarantee mechanism (land, space, industry, capital, talent, computing, data, scenario): land and space — the 75 statutory dominant-function zones serve as the inventory ledger for identifying underused opportunity space, with vacated university land first filling three-facility gaps (Arts. 6, 42) [source:REGULATORY-PLAN-HD00-1601]; industry — vertical division across the three zones (foundational algorithms → open-source ecosystem → agent commercialization); capital — west-wing full-chain VC, IP and IPO-coaching interface (mechanism suggestion, not a funding commitment); talent — 15-minute living circle, young R&D community, tech-transfer posts; computing — Xuebeiyuan national base + edge stations; data — the covenant's three-tier lists; scenario — Xiaoyue River wing and the three industry test-validation grounds. The AI innovation-ecosystem map is the coupled network of "three zones and two wings × eight factors × data covenant"; all mechanisms are conceptual suggestions.
 
+### Haidian–Beijing–Beijing-Tianjin-Hebei AI Innovation Synergy (cooperation suggestions)
+
+The Jingzhang Digital-Intelligent Folding Belt does not operate as a closed system but as an **exchangeable node** in the Haidian–Beijing–Beijing-Tianjin-Hebei innovation network. The table below itemizes the proposed exchangeable research, computing, capital, talent and scenario resources, the corresponding Jingzhang spatial interfaces, and the current evidence status. **All entries are cooperation suggestions; none constitutes or implies any signed arrangement or government commitment.** "Public positioning" means only that the parties' public planning scopes are complementary; formal collaboration mechanisms await promotion by the organizer and the relevant bodies.
+
+| Counterpart | Exchangeable resources (research/computing/capital/talent/scenario) | Jingzhang spatial interface | Evidence status |
+| --- | --- | --- | --- |
+| Zhongguancun Science City (Haidian) | Research: university labs network; capital: VC & IP services; talent: young R&D community | Origin Community tech-transfer street; west-wing Zhongguancun tech-service wing | Public positioning; suggestion |
+| Beiwei Community (northern Haidian) | Computing: regional facility mutual backup; scenario: smart-city scenario mutual recognition | Xuebeiyuan data sandbox & L3 covenant pilot | Public info to verify; suggestion |
+| Future Science City (Changping) | Research: energy research & corporate labs; talent: engineers | Heritage-park innovation-belt R&D exchange carriers | Public positioning; suggestion |
+| Huairou Science City | Research: large-scale facilities & fundamental-research data | 1+3+N twin base with reserved science-data interface | Public positioning; suggestion |
+| Beijing E-Town (BDA) | Scenario: smart manufacturing, vehicle-road & autonomous delivery testing; industry: agent manufacturing support | Dazhongsi agent cluster + demand-responsive transit test mutual recognition (AI+06) | Public positioning; suggestion |
+| Beijing-Tianjin-Hebei (Tianjin/Hebei & Zhangjiakou) | Computing: green-power computing; scenario: manufacturing & tourism hinterland; talent: vocational education | Jingzhang railway culture line extending to Zhangjiakou via the Jingzhang HSR (same-origin line, event-based linkage) | Public positioning; suggestion |
+
+The synergy mechanism is managed dynamically as "resource list + spatial interface + evidence status": each cooperation requires counterparty confirmation and compliance assessment before occurring, and must be registered under the regional-synergy entry in assumptions.json; until registered, all items are stated as cooperation suggestions and must not be written into formal agreements or commitment conclusions.
+
 ## Overall Design Area: Urban Renewal at Regulatory-Plan Depth
 
 The overall design area must reach the urban-design depth of a regulatory detailed plan. This proposal aligns directly with the statutory structure "one belt, one axis, two centers, multiple nodes" (Art. 9) [source:REGULATORY-PLAN-HD00-1601] [standard:MOHURD-CONTROL-DETAILED-PLANNING] [depth:overall_spatial_structure]:
@@ -116,7 +131,8 @@ The renewal framework responds to the official "nearly 10 million sqm of stock s
 Article 82 of the regulatory plan explicitly calls to "explore reform paths for market-based allocation of data elements" [source:REGULATORY-PLAN-HD00-1601]. The Folding Belt deepens this statutory clause into an implementable "Jingzhang Data Covenant":
 
 - **Three-tier public-data authorization list**: L1 open tier (anonymized aggregate city-operation data, no authorization needed), L2 authorized tier (district-level sensing data, application after enterprise KYC), L3 sandbox tier (sensitive-scenario data, usable-but-invisible inside the Xuebeiyuan data sandbox only); target coverage at [metric:data_covenant_coverage_ratio].
-- **Algorithm Contribution Index**: enterprises and developers trade city-optimizing algorithms for data-use rights; index = model invocation frequency × scenario weight × effect score (baseline and formula at [metric:algorithm_contribution_index]); top contributors receive a spatial reward ladder (testbed priority → showcase slots → rent-reduction recommendations).
+- **Algorithm Contribution Index**: enterprises and developers trade city-optimizing algorithms for data-use rights; index = model invocation frequency × scenario weight × effect score × fairness-correction coefficient (baseline and formula at [metric:algorithm_contribution_index]); top contributors receive a spatial reward ladder (testbed priority → showcase slots → rent-reduction recommendations).
+- **Fairness correction and anti-concentration clause**: allocation never follows call frequency alone — the correction coefficient up-weights open-source contributions and public-value scenarios (accessibility, elder-friendly, child-friendly, vulnerable-group benefits) and applies scale-decay correction to large players; a **small-team reserve quota** reserves no less than 30% of each round's space and data rewards for teams under 50 people and independent developers; rankings are independently reviewed by the quarterly committee and published with an objection window and appeal channel (see the concept-stage governance table); no actor may lock in ranking through data or space advantages, preventing public data and space opportunities from concentrating in large enterprises.
 - **Compliance floor**: enterprise KYC, data de-identification, purpose registration and auditable logs are all indispensable; the index is an operational proposal, not government approval or commitment.
 
 ### 1+3+N Digital-Twin Architecture (aligned with Art. 82 intelligent-city system)
@@ -249,6 +265,39 @@ The table below resolves each of the 10 operation links into a verifiable "sense
 | AI+10 Embodied & Medical Pilot | trial-run data · L2/L3 | test admission + medical compliance | Xiaoyuehe · [key_areas] | results fed back | medical compliance ahead, test-validation only; KPI: pilot count |
 
 **Common loop rules**: all sensed data is anonymized at the edge tier (within L2) before rising to L1 aggregation or the L3 sandbox; feedback channels connect to service providers to form the "experience—data—optimize—re-experience" positive loop. Every link traces back to a `geometry/` layer and a Data-Covenant compliance requirement, checkable item-by-item via the compliance matrix.
+
+### Concept-Stage Governance Table (AI+06 / AI+09 / AI+10 / Algorithm Contribution Index)
+
+The table below provides operational governance design for the four high-sensitivity links involving mobility safety, affect sensing, medical health and resource allocation. **All performance and deployment capabilities listed are to-be-tested items**: this proposal only sets out a governance framework and process design; flow diagrams must not be read as evidence of full deployment readiness. Before any link enters an on-site pilot, data-protection and ethics impact assessment, accessibility testing, safety review, public notice and independent professional sign-off must be completed.
+
+| Governance item | AI+06 Demand-Response Transit & Shuttle | AI+09 Affective Public Space | AI+10 Embodied & Medical Pilot | Algorithm Contribution Index (allocation) |
+| --- | --- | --- | --- | --- |
+| Collection prohibited | unauthorized roadside imagery; individual school-route trajectories | face/biometrics; individual-level emotion data; medical inference | clinical records entering city systems; health monitoring without consent | personal attributes irrelevant to contribution (gender, ethnicity, household status, etc.) |
+| Inference prohibited | individual travel-identity profiling; rider-status inference beyond accounts | individual mental-health status; employment/credit linkage | diagnostic conclusions without licensed confirmation | social-graph contribution prediction; cross-scenario profile merging |
+| Minimal dataset | aggregated OD matrix (≥50), headway, section flow | group density and aggregated comfort (no individual records) | trial data under volunteer informed consent, anonymized on site | three aggregated values: call count, scenario weight, effect score |
+| Human review | manual takeover of dispatch anomalies and safety events (remote safety operator onboard) | operator confirms parameter changes | all outputs reviewed by licensed physicians; AI advisory only | quarterly committee confirms ranking and rewards |
+| Public opt-out | stop-side notice + one-touch switch to human-driven service | entrance notice + physical opt-out button (exits sensing) | volunteers may withdraw in writing anytime with data deletion | enterprises may exit the ranking for a fixed base quota |
+| Misjudgment fallback | dispatch failure reverts to manual scheduling and existing bus lines | failed tuning restores default comfort within 30s | AI–physician disagreement forces the manual pathway with logging | anomalous index movement triggers review and suspends allocation |
+| Retention | aggregated OD 12 months; no individual-level storage | aggregated metrics 6 months; raw sensing deleted same day | trial data for pilot + 6 months, then deleted | contribution records 24 months, then aggregated stats only |
+| Appeals | operator hotline + district transport referral | venue manager, on-site and online channels | pilot ethics committee + hospital complaint channel | committee reconsideration + public-notice objection window |
+| Fairness correction | coverage tilts to older estates and accessibility needs | parameter policy published; public comment before major changes | open, published pilot recruitment | see "inclusive service matrix": open-source/public-value weighting + small-team reserve |
+| Stop conditions | major safety incident or two consecutive months below headway target | negative feedback above threshold or upheld complaint | ethics-committee majority veto or unlicensed medical act | data fraud or unresolved allocation dispute freezes the index |
+
+The governance table executes jointly with the "ethics and data governance" boundary and the covenant's three-tier lists: prohibitions enter the covenant negative list, retention terms enter the data life-cycle clause, and stop conditions enter each link's operations plan. All governance design is a concept-stage suggestion; formal implementation follows the laws, regulations and competent-authority requirements in force at the time.
+
+### Inclusive Service Matrix (concept stage)
+
+Inclusion goes beyond "user personas + technical responses": the table below provides equivalent service paths for children, older adults, persons with disabilities, people with low digital literacy, and those unwilling to use smart terminals — **every AI scenario has an offline equivalent reachable without a smart terminal**, with AI and offline channels maintained as mutual backups of equal standing. Accessibility compliance is verified by manual inspection and participatory testing with users with disabilities; **machine vision or AI assessment must not replace human verification**.
+
+| Group \ Service | Wayfinding (AI+04/08) | Transit (AI+06) | Event booking (annual activity system) | Public-space tuning (AI+07/09) |
+| --- | --- | --- | --- | --- |
+| Children | parent-led paper exploration maps + fold-node stamp booklets | fixed-shuttle service (no booking needed) | guardian booking + on-site waitlist | physical play equipment fixed on during activity hours |
+| Older adults | on-site docents (weekends full coverage) + large-print guide leaflets | one-touch phone booking + hail-and-ride shuttles | community-hall manual desk + phone booking | default comfort parameters with elder lighting and seating |
+| Persons with disabilities | tactile maps + sign-language video terminals + Braille signage | accessible-vehicle phone booking + standardized driver assistance | priority on-site window + companions exempt from booking | accessibility parameter tier (ramp alerts, caption screens) via manual trigger |
+| Low digital literacy | staffed inquiry kiosks | full transit-card/cash compatibility | community-volunteer booking assistance | service desk collecting tuning suggestions |
+| Smart-terminal-unwilling | non-digital signage retained at all fold nodes | posted route maps + paper timetables | walk-up registration with no vacancy barrier | suggestion box + quarterly on-site forums feeding the tuning agenda |
+
+Execution requirements: ① each operations plan must include an "offline equivalent path" section with budget and staffing; ② each path undergoes at least annual participatory acceptance with the group concerned; ③ offline-channel usage data never enters personal profiles and is counted as service volume only.
 
 ### Consistency Verification: Alignment with the National Digital City-Renewal Guideline
 
@@ -430,18 +479,25 @@ Below are executable recalculation formulas, confidence levels, error sources an
 
 ### Allocation of the 24.08M sqm Statutory Ceiling to the Spatial Structure (scenario, not a commitment)
 
-**Scope note**: this table distributes the plan's Art. 7/13 24.08M sqm ceiling across the "belt–axis–two centers–multiple nodes" structure (Art. 9) to demonstrate feasibility under the hard cap. **It contains no plot-level commitment and no financial or investment data**; final plot indicators await the official charts.
+**Scope note**: this table allocates the plan's Art. 7/13 24.08M sqm ceiling **within the statutory 16.7 km² nine-block area only**, following the "belt–axis–two centers–multiple nodes" structure (Art. 9), to demonstrate feasibility under the hard cap. **It contains no plot-level commitment and no financial or investment data**; final plot indicators await the official charts.
 
-| Spatial component | Scenario share (10k sqm) | Share | Logic |
+**Within-statutory-area (16.7 km²) allocation:**
+
+| Spatial component | Scenario share (10k sqm) | Share of in-area allocation | Logic |
 | --- | --- | --- | --- |
-| Wudaokou center (Origin Community) | 420 | 17.4% | Fold hub: near-campus tech-transfer + talent community with station-area compounding |
-| Dazhongsi center | 380 | 15.8% | Exchange port: station-city integration + data-asset trading carrier |
-| Heritage-park innovation-belt corridor | 520 | 21.6% | Belt: low-rise tech-exchange spaces + renewal carriers (amplified radiation of the official 100万 sqm) |
-| Xuebeiyuan (strategic-study scope) | 300 | 12.5% | Compute & data-sandbox industry; strategic-study bearer, not statutory-area intensity |
-| Remaining eight blocks (stock renewal) | 788 | 32.7% | Predominantly stock conversion; strict control over demolition-and-new |
-| **Total** | **2408** | **100%** | Exactly equals the statutory ceiling; no scenario breaches it |
+| Wudaokou center (Origin Community) | 420 | 19.9% | Fold hub: near-campus tech-transfer + talent community with station-area compounding |
+| Dazhongsi center | 380 | 18.0% | Exchange port: station-city integration + data-asset trading carrier |
+| Heritage-park innovation-belt corridor | 520 | 24.7% | Belt: low-rise tech-exchange spaces + renewal carriers (amplified radiation of the official 100万 sqm) |
+| Remaining eight blocks (stock renewal) | 788 | 37.4% | Predominantly stock conversion; strict control over demolition-and-new |
+| **In-statutory-area total** | **2108** | **100%** | ≤ the 24.08M sqm statutory ceiling; no scenario breaches it |
 
-**Allocation self-checks**: ① two centers sum to 800 (≈34% ≤ ceiling), consistent with the two-center structure; ② belt-corridor additions fold within existing block capacities without breaching the tier-5 intensity zones (Art. 14) or 6 base height classes (Art. 16); ③ Xuebeiyuan counts under the strategic-study scope, not statutory-area intensity, per A-SCOPE-NESTED-001. This is a design-argument parameter and **is not a commitment to any official control value** `[assumption:A-FLOORAREA-001]`.
+**Outside-statutory-area item (NOT counted against the 24.08M sqm ceiling):**
+
+| Spatial component | Scenario scale (10k sqm) | Basis |
+| --- | --- | --- |
+| Xuebeiyuan (inside 43.6 km² strategic-study scope, outside the 16.7 km² statutory area) | 300 | Strategic-study bearer: compute & data-sandbox industry; **accounted separately, neither consumes nor counts toward the statutory ceiling** |
+
+**Allocation self-checks**: ① in-statutory-area total 2108 ≤ the 24.08M sqm statutory ceiling (a 300 buffer remains unallocated pending official charts); ② two centers sum to 800, i.e. 38.0% of the in-area allocation, consistent with the two-center structure; ③ belt-corridor additions fold within existing block capacities without breaching the tier-5 intensity zones (Art. 14) or 6 base height classes (Art. 16); ④ Xuebeiyuan's 300 lies outside the 16.7 km² statutory area within the 43.6 km² strategic-study scope, accounted separately and excluded from the statutory-ceiling allocation and totals, per A-SCOPE-NESTED-001. This is a design-argument parameter and **is not a commitment to any official control value** `[assumption:A-FLOORAREA-001]`.
 
 ### Statutory Clause-by-Clause Verification Table
 
