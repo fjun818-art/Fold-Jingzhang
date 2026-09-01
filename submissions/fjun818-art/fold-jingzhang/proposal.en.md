@@ -352,7 +352,7 @@ The project list aligns with the plan's implementation strategy and adaptive pro
 | JZ-03 | Origin Community Fold Hub & near-campus tech-transfer street | Urban renewal / industry services | Campus boundary, ownership, ground-floor uses | [data:geometry/buildings.geojson#BLDG-001] |
 | JZ-04 | Dazhongsi station four-quadrant pedestrian connection & data-asset trading lounge | Rail integration / slow mobility | Rail station, intersections, municipal pipelines | [data:geometry/public_space.geojson#PUBLIC-001] |
 | JZ-05 | 1+3+N digital-twin base & edge-computing nodes | New infrastructure / public services | Energy, computing, security, operating entities | [data:geometry/public_space.geojson#DATA-001] |
-| JZ-06 | AR/MR experience works at 7 fold nodes | Culture-tech / operation | Heritage-authority approval (overlay only), content clearance | [data:geometry/public_space.geojson#FOLD-001] |
+| JZ-06 | AR/MR experience works at 7 fold nodes | Culture-tech / operation | Heritage-authority approval (overlay only), site & event safety authorization, content clearance | [data:geometry/public_space.geojson#FOLD-001] |
 | JZ-07 | Jingzhang Data Covenant operation platform | Data elements / governance | Art. 82 implementation path, enterprise KYC and audit | [metric:data_covenant_coverage_ratio] |
 | JZ-08 | Global AI Week public route | Operation / branding | Public-space permits, event safety, copyright clearance | [data:geometry/phasing.geojson#PHASE-001] |
 
@@ -369,7 +369,7 @@ On top of the project list, each project is specified by spatial action, plan-cl
 | JZ-03 | Campus–park–block slow-mobility stitch, ground-floor tech-transfer street, fold-hub lounge | Art. 9 two centers; Art. 14 intensity | P2 | Ground-floor use guidance only until campus boundary/ownership confirmed |
 | JZ-04 | Dazhongsi four-quadrant connection, data-asset trading carrier renewal, crossing islands | Art. 9 two centers; Arts. 21–23 key areas | P2 | Station/pipeline conditions confirmed by owner entities |
 | JZ-05 | Edge nodes reuse light-poles/cabinets, street-level adapter prototype | Art. 82 operation system | P2 | Modal facilities not height-zoned; off forbidden basement areas |
-| JZ-06 | AR/MR overlay works at 7 fold nodes, narration co-creation platform | Art. 26 list + Arts. 21–23 | P1 | National/municipal heritage overlay only, zero physical change; heritage approval ahead |
+| JZ-06 | AR/MR overlay works at 7 fold nodes, narration co-creation platform | Art. 26 list + Arts. 21–23 | P1 | National/municipal heritage overlay only, zero physical change; ahead of implementation, obtain heritage approval and site & event safety authorization, and re-verify the no-physical-intervention boundary per approval conditions |
 | JZ-07 | Data Covenant platform (3-tier list, enterprise KYC, audit log) | Art. 82 market-based data | P3 | Advisory index, not government approval |
 | JZ-08 | Global AI Week public route facilities (temporary pavilions, modular seating, evacuation) | Art. 88 adaptive provisions | P1 | Safety & rights clearance ahead; removable facilities |
 
@@ -459,7 +459,7 @@ Metrics fall into three classes [depth:metrics_recalculation]: (1) directly reca
 
 ### Metric Recalculation Methods and Verification Workflow
 
-Below are executable recalculation formulas, confidence levels, error sources and the trigger conditions for recomputation once official boundaries are released, ensuring "metrics verifiable, formulas traceable, boundaries updatable."
+Below are executable recalculation formulas, confidence levels, error sources and the trigger conditions for recomputation once official boundaries are released, ensuring "metrics verifiable, formulas traceable, boundaries updatable." When provisional geometry is replaced by released official boundaries, the geometry versions, coordinate systems and difference records before and after the replacement are retained as a traceable version-change archive, supporting the recalculation deltas of area, green space, public space, building footprint and node topology.
 
 | Metric | Recalculation formula (EPSG:4548) | Confidence | Error source | Recompute trigger on official data release |
 | --- | --- | --- | --- | --- |
