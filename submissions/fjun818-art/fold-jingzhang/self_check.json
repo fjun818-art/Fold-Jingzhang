@@ -10,7 +10,8 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/fjun818-art/fold-jingzhang/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+        "submissions/fjun818-art/fold-jingzhang/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
+        "submissions/fjun818-art/fold-jingzhang/assets/figures/fold-overview.en.png: byte-identical to `assets/figures/fold-overview.png`; if the translation is still missing, replace it with a rendering in the declared language, and if the file carries no language-specific content, declare language=neutral once and share it between both versions (see docs/formal-submission-guide.md); this notice does not block review"
       ],
       "proposal_files": [
         "submissions/fjun818-art/fold-jingzhang/proposal.md"
@@ -153,7 +154,7 @@
       "ai_package_stages": {
         "submissions/fjun818-art/fold-jingzhang": "formal"
       },
-      "total_bytes": 41930723,
+      "total_bytes": 40774243,
       "maintainer_bypass": false
     },
     "stderr": ""

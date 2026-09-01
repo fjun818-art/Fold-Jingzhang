@@ -64,7 +64,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "4b8daac04e84b7a4b7110741b499a8081c46e47d271ed3d51186634317c3e741"
+      "sha256": "0a73babdce89e028eb16327cac0d18f144914277b51e7958f7df06ec8eb0ab55"
     },
     {
       "path": "compliance_matrix.json",
@@ -175,35 +175,35 @@
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "2e2332207cb470420004fb650960c9a02c803ce5689378a44cabd0a19ea1c439",
+      "sha256": "9244df31c7de58a82a9f74518e366f0a309fe8eeaf80e20544a7bc8b20b7777c",
       "language": "zh"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "270931156248ba2aba55f78c404d98b1551cb74d4d98fb63636604158e25df8c",
+      "sha256": "7146f684c8cd057bde0baadae5b0ee4961e4d6d79f3638b964b225b9b05643be",
       "language": "zh"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "ac68bab63684e05f5be12a9f7db9233d687a37f62c1ad89df6a751da1a7031c3",
+      "sha256": "d4b02f8c24c2be94a42836eaa951d38f6fc85f36abd7900817e5609ef612c940",
       "language": "zh"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "31460a0ca42ea9f1d9fe5aa902a1e74b073152211ae66ecf7ed7d9a336033e10",
+      "sha256": "d381f0a8c60f17bf4bd50590e6b1dba1d139428fe513f21d15029df5eca451f6",
       "language": "zh"
     },
     {
       "path": "assets/figures/site-overview.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "fa3bed0228d10331c96d405953379b1bd04ee1671fa0ecb031554e8149246216",
+      "sha256": "c00f4428d012e3ecaa23fc14b0e436329a2bef519b921d1644d318f2aaf15fd8",
       "language": "zh"
     },
     {
@@ -266,7 +266,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "ac078f93edaf7ec0dcc3e5438893e56d38f0d0ba9b6d18e6196cc802428a68cd"
+      "sha256": "a9916a1406c622ded6a600edf78cd45d65bc52bc8c1d5fa422240d63927a78ed"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -274,7 +274,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png",
-      "sha256": "80c2e6dde2b00aa76a0ad5c21b9b21c983827149378bfc93d54f9adae814c757"
+      "sha256": "4ea1befc5a1fa55e59e8b2b2466292d3277482c00ea95268bf0761d0fe85d828"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -282,7 +282,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/key-areas.png",
-      "sha256": "69435f4c8c829d304f6ac653422e7dc1dffee7bb6647b83009b013e1ef38308a"
+      "sha256": "d6870d3e3222737dfc1cf25c641838de26ce65767289d1c8c816258fbeeaa464"
     },
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
@@ -290,7 +290,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/mobility-bluegreen.png",
-      "sha256": "dcb8b2a4e982ca5f4b4728df992fd21100d59ba82e894b84b86e775313ff903c"
+      "sha256": "23ef96c71f96845dc3ff929385bea6620bd0dd6d689ac93742af336f8f70ba1e"
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
@@ -298,7 +298,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png",
-      "sha256": "e78fb3ca698d1a8b45fb942d634c6f773e1f0e13bf12c0a9502e8b58d2364892"
+      "sha256": "7d5828ad152c99b7f97d86bbf0fc239d5dbef88e6fc6a7eecfcfae19f37c3ea0"
     },
     {
       "path": "assets/figures/scenes/fold-01-qinghuayuan.png",
@@ -737,14 +737,14 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "73a6108bf951217e11ba2a56eda02b1dd17dde39519e06182836ecf17a36f768"
+      "sha256": "e847071552c271d2e4a7c1f56a3d3c802ae37d95a89222a5ff062eb6a5f92edb"
     },
     {
       "path": "assets/figures/fold-overview.en.png",
       "role": "proposal_figure",
       "required": true,
       "language": "en",
-      "sha256": "e8955d23a0c2575bf2180d4cc203713c88bd7639b5a3b55aa60b32c3a2b46753",
+      "sha256": "e847071552c271d2e4a7c1f56a3d3c802ae37d95a89222a5ff062eb6a5f92edb",
       "translation_of": "assets/figures/fold-overview.png"
     },
     {
@@ -752,14 +752,14 @@
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "e6848512ce6ac6e7fd40095c11d4c9270afcd808c1aeb3cdfa5d1d8e4c3b6957"
+      "sha256": "3a00b557908d02272c3f50afed92c152590ae55c282e351d78151d5cbd6702f6"
     },
     {
       "path": "assets/figures/projects/jz-02-data-sandbox-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "1784a8e4cb69641f021a02c1cf215e248025971350670a3bb59b366b30430a91"
+      "sha256": "f3556f835a784caab3ef52c7bd75b4c6b6929a0efe5a83fc7b30bd98e4de649f"
     },
     {
       "path": "assets/figures/projects/jz-03-fold-hub-render.jpg",
@@ -773,14 +773,14 @@
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "a0ad40ccd157447f38b394220943ead634d0b5a05b8c6234f113227ae965de06"
+      "sha256": "e9c6c24a2aa2c52414a727b06417560c11ed7fc61c5ab02361b00c79c454e12a"
     },
     {
       "path": "assets/figures/projects/jz-05-digital-twin-base-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "69015b6f21c59dc062efb078e0531afbdd7e1b619b3e2c72f62b9a3c70cf0da5"
+      "sha256": "7b529023ce9762ea08fed28ba28529edf78fd2fa9605dbba50dffb46d807fb9b"
     },
     {
       "path": "assets/figures/projects/jz-06-fold-nodes-armr-render.jpg",
@@ -794,7 +794,7 @@
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "978e9d1cbb39ee66897e2dac9aa0e61c20ebd1028ad78f37fa7f30674acd3b75"
+      "sha256": "a75d8e689f6e14430387500d9a0520d81836ffe178ed3e5e742b0f7e33007f11"
     },
     {
       "path": "assets/figures/projects/jz-08-ai-week-route-render.jpg",
@@ -808,119 +808,119 @@
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "da4aaab9f308a992c08ff3781cd713c29294f9af7adcc2e8e4562112a2175e0c"
+      "sha256": "e11bfddcfa415a3d79a541c49424e15008edb51016ef9e02ae18dc59cee8874f"
     },
     {
       "path": "assets/figures/scenarios/op-02-open-source-hall-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "99a71c702719bb1429993db861a0b904bb36a544f23d578b413addb7e1598a1f"
+      "sha256": "5c1bfc7d32eb2e404465656189da311b650f9a93084573e7a311f1346fa54d1b"
     },
     {
       "path": "assets/figures/scenarios/op-03-edge-station-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "8149015c902fa9fee9c43b271ecc982924a2ca84bccd95e577046be7ec6e9dc2"
+      "sha256": "6690c85807d1ec864db85fa4d702ada44e751f30c13728f2c41e0c7c98d583e1"
     },
     {
       "path": "assets/figures/scenarios/op-04-slow-mobility-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "e0c3589a2e489eade0dd9307b8630f9ddf013ef39840dd777f711ffbd94b44c3"
+      "sha256": "91aed030d58703ce6ba02ef32e44dea32cfd906231b88fe3c5ad115c0a1aa28f"
     },
     {
       "path": "assets/figures/scenarios/op-05-roadshow-lounge-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "0dc25844224dbe6b8c00fdf7c02141aeab9578a21aed963717c48e74a7b01555"
+      "sha256": "089ea16832496a5743dd8a1ee29b94a18feb26a34c05a89e5c088e4fe28f666d"
     },
     {
       "path": "assets/figures/scenarios/op-06-demand-transit-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "34fd180d653810e09a42b84738876b7088bf6b2266fc0dbf566a5729b2c60c08"
+      "sha256": "e847b874fedab611050f89c85ee33e481c473d25a058908f4215799ccec5d719"
     },
     {
       "path": "assets/figures/scenarios/op-07-adaptive-space-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "1c45b6d13d9541e1e1f53e48ebc4b430a76866ecd1ca7110fa35d41d6b242449"
+      "sha256": "9c7d36de396728f902847a0d0fbcd8a6f38abc7e56dda62f361eff13c9b70bdf"
     },
     {
       "path": "assets/figures/scenarios/op-08-ai-narrative-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "56c8b5f0416c01adc9e3c1c1648fa2f27d3d80955dcfc4c869d23487a7b27f70"
+      "sha256": "e5a9d34379f2916c382f52416e8c40cbe53f86c51c6d1e17f10857f42d701498"
     },
     {
       "path": "assets/figures/scenarios/op-09-affective-space-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "526f3bde70679c8687b5bcaa069bf774b6ae169a86d40c629c53ea1b33053fbb"
+      "sha256": "4ab9fee93775e3c831ba0bdbc02555aed693b9898093c7b2c490c6cfd5c6a87f"
     },
     {
       "path": "assets/figures/scenarios/op-10-embodied-medical-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "b2b9edc5e12abed232a4ae806a759a74be766eb30e0048c7d59f7fc62f35091a"
+      "sha256": "fff1514778d64ff35c406e6ed0ddee517e7a5a09d341f3cfc509c8e30da4effd"
     },
     {
       "path": "assets/figures/scenes/fold-01-qinghuayuan-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "85c4852ce6836c65b8798a79e1509a980b566a5790eed71a6ce5a45f88749dcb"
+      "sha256": "4d084a6f61e111a4c5df1c9a0fb20dce9b95d441cd2bf522f4f88986f59c9e0b"
     },
     {
       "path": "assets/figures/scenes/fold-02-gaoliangzha-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "f848ad4a4ca0e3a3d13cb3890c8dac6b96aa46ec1c2cf49937210c7b755d6293"
+      "sha256": "30b100c3733b00eb5d929fe1e81901df9a8b14179957d928b377306c73e90a02"
     },
     {
       "path": "assets/figures/scenes/fold-03-yuandadu-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "f23c9578ca8f6d6d38939c947ddecb4ccb59287c62915c5db601b6a00214e0fc"
+      "sha256": "03c200108de33a9661a0affc72d0d4d7257055d87aa0ef57ae2d11d1cbb40093"
     },
     {
       "path": "assets/figures/scenes/fold-04-tiekeyuan-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "2a08eca699ee6f9c0451adad3d2be033967f3704b64e6d8e64df76c17d041d95"
+      "sha256": "df2daf270b8ae5bfb8987e14efb2c1496814d54a2ca135429af4589ce9a51833"
     },
     {
       "path": "assets/figures/scenes/fold-05-dahuisi-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "b82d59b999310778e2288c9a7dcc8240170ed2c571687911b4ec8001b8c52800"
+      "sha256": "c2570045cc98eedd32de71a38965ea72ed47c8c502a201fb1a55f0b490d21485"
     },
     {
       "path": "assets/figures/scenes/fold-06-wudaokou-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "9609611411ab83c713640b885aba91c2537feb5bbc726869539a40a3afec5d7e"
+      "sha256": "f553a830e2c8614e91d4e616497b88c73c94c4bf2117286ea0bf5434a5e3ae3c"
     },
     {
       "path": "assets/figures/scenes/fold-07-xizhimen-render.jpg",
       "role": "proposal_figure",
       "required": false,
       "language": "neutral",
-      "sha256": "e72df8a9211e106becc4071e5e55b77ce12f7856f1f10a8ff824aee5881f9acb"
+      "sha256": "89da7ee097d629247729695388b0b06c6e26f631b3d7ddabf96b049721278f02"
     },
     {
       "path": "assets/figures/cover-16x9.png",
