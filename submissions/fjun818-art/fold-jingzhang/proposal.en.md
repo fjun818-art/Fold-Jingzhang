@@ -223,7 +223,7 @@ The proposal builds spatial-demand profiles for AI talent and enterprises — R&
 | 06 Demand-responsive & autonomous bus feeder | Rail stations and corridor nodes | Implements the plan's characteristic-bus clause (Art. 52) with AI-dispatched micro-circulation feeders, and reserves a vehicle-road coordination interface for unmanned delivery vehicles (pilot-testing nature) [source:REGULATORY-PLAN-HD00-1601] |
 | 07 Adaptive public space | Xiaoyue River wing first | Plazas and streets auto-adjust lighting, seating and functions by footfall, weather and events; target ratio at [metric:adaptive_public_space_ratio] |
 | 08 AI historical narration | 7 fold nodes | LLM-revived historical figures such as Zhan Tianyou as AI guides telling the centennial Jingzhang story |
-| 09 Affective-computing public space | East-wing waterfront + community lounges | Real-time sensing of crowd emotion and needs, dynamic environmental tuning, linked to AI+ elderly care |
+| 09 Affective-computing public space | East-wing waterfront + community lounges | Senses crowd comfort **only via voluntary anonymous questionnaires, physical comfort buttons, and non-individual environmental/footfall statistics**, dynamically tuning environmental parameters, linked to AI+ elderly care (**no emotion inference from cameras, microphones, gait, voiceprints or other biometrics**) |
 | 10 Embodied AI & AI healthcare pilots | Xiaoyue River waterfront | Echoing the official "smart-city testbed" positioning: AI+ livelihood, culture/entertainment and elderly-care applications [source:THREE-ZONES-TWO-WINGS-RELEASE] |
 
 Three of these form the taskbook-required industry test-validation scenarios: card 01 Urban Data Sandbox (foundation-model and data-layer testing), card 05 Dazhongsi International Roadshow Lounge (agent and smart-terminal commercial validation), and card 10 Embodied AI & AI Healthcare Pilots (waterfront field validation); all three are test-validation in nature, not approved operations.
@@ -272,7 +272,8 @@ The table below provides operational governance design for the four high-sensiti
 
 | Governance item | AI+06 Demand-Response Transit & Shuttle | AI+09 Affective Public Space | AI+10 Embodied & Medical Pilot | Algorithm Contribution Index (allocation) |
 | --- | --- | --- | --- | --- |
-| Collection prohibited | unauthorized roadside imagery; individual school-route trajectories | face/biometrics; individual-level emotion data; medical inference | clinical records entering city systems; health monitoring without consent | personal attributes irrelevant to contribution (gender, ethnicity, household status, etc.) |
+| Currently permitted data sources | existing dispatch-system operating data; aggregated passenger counts after stop-side notice | **ONLY**: ① voluntary anonymous questionnaires (no identification); ② physical comfort buttons on site (aggregate counts, no individual tag); ③ environmental sensing that forms no individual record (temperature/humidity, noise, illuminance) and count-only footfall (person-times, no individual recognition) | trial data within the scope of signed volunteer informed consent | aggregated statistics of platform model-call logs |
+| Collection prohibited | unauthorized roadside imagery; individual school-route trajectories | **emotion inference from cameras/microphones/gait/voiceprints/faces and any other biometrics; individual-level emotion data; individual mental-health inference; medical inference** | clinical records entering city systems; health monitoring without consent | personal attributes irrelevant to contribution (gender, ethnicity, household status, etc.) |
 | Inference prohibited | individual travel-identity profiling; rider-status inference beyond accounts | individual mental-health status; employment/credit linkage | diagnostic conclusions without licensed confirmation | social-graph contribution prediction; cross-scenario profile merging |
 | Minimal dataset | aggregated OD matrix (≥50), headway, section flow | group density and aggregated comfort (no individual records) | trial data under volunteer informed consent, anonymized on site | three aggregated values: call count, scenario weight, effect score |
 | Human review | manual takeover of dispatch anomalies and safety events (remote safety operator onboard) | operator confirms parameter changes | all outputs reviewed by licensed physicians; AI advisory only | quarterly committee confirms ranking and rewards |
@@ -450,7 +451,7 @@ Metrics fall into three classes [depth:metrics_recalculation]: (1) directly reca
 | Key-area count [metric:key_area_count] | 3 | 1 | [data:geometry/key_areas.geojson#PROV-KEY-001] |
 | Fold nodes [metric:fold_nodes_count] / data nodes [metric:data_nodes_count] | 7 / 12 | 1 | [data:geometry/public_space.geojson#FOLD-001] |
 | Statutory floor-area ceiling [metric:total_floor_area_ceiling_sqm] | 24.08 million sqm | 2 | Plan Arts. 7/13 [source:REGULATORY-PLAN-HD00-1601] |
-| Statutory FAR baseline [metric:statutory_floor_area_intensity] | ~1.46 (derived) | 2 | Plan Art. 7 |
+| Statutory FAR baseline [metric:statutory_floor_area_intensity] | 14,632 sqm/ha (derived) | 2 | Plan Art. 7 |
 | Building footprint ratio [metric:floor_area_ratio] | ~2.72% | 1 | [data:geometry/buildings.geojson#BLDG-001] |
 | Population [metric:population_baseline] / employment [metric:employment_baseline] baselines | 364k / 397k | 2 | Plan Art. 7 |
 | Algorithm Contribution Index [metric:algorithm_contribution_index] | Calibrated in operation | 3 | Plan Art. 82 implementation proposal |
@@ -468,9 +469,9 @@ Below are executable recalculation formulas, confidence levels, error sources an
 | Green/public-space ratio | green/public_space_area ÷ site_area | Low | Design-schematic green layer | Replace with official park quantities |
 | Key-area count | count(key_areas.geojson) | High | Attributes follow official confirmation | Re-check topology after official boundary |
 | Fold/data/AR-MR points | count(SCENARIO_NODE by node_type) | High | Coordinates calibrated by heritage entity | Re-align after official heritage resurvey |
-| Floor-area ceiling total_floor_area_ceiling_sqm | Plan Art. 7/13 constant 24.08M sqm | High (statutory) | None (statutory, not measured) | No recomputation; serves as hard cap |
-| Statutory FAR baseline | 24.08M ÷ 1645.6 ha = 1.46 (derived) | Medium | Denominator is a derived urban-construction-land value | Reconcile with official chart decomposition |
-| Population/employment baselines | Plan Art. 7 constants 364k / 397k | High (statutory) | None | No recomputation |
+| Floor-area ceiling total_floor_area_ceiling_sqm | Plan Art. 7/13 constant 24.08M sqm | High (statutory·pending registration) | None (statutory, not measured) | No recomputation; serves as hard cap |
+| Statutory FAR baseline | 24.08M sqm ÷ 1645.6 ha = 14,632 sqm/ha (derived baseline) | Medium | Denominator is a derived urban-construction-land value | Reconcile with official chart decomposition |
+| Population/employment baselines | Plan Art. 7 constants 364k / 397k | High (statutory·pending registration) | None | No recomputation |
 | Algorithm Contribution Index | model call frequency × scenario weight × effect score | Unknown (operational) | Depends on platform run data | Quarterly calibration after covenant launch |
 | Data-covenant coverage data_covenant_coverage_ratio | L1/L2/L3 registered scenarios ÷ total (Art. 82) | Low (60% target) | Scenario list evolves | Re-register annually |
 | Adaptive public-space share adaptive_public_space_ratio | adjustable public space ÷ total public space (30% target) | Low (target) | Depends on implementation | Re-measure with implementation progress |
@@ -481,15 +482,19 @@ Below are executable recalculation formulas, confidence levels, error sources an
 
 **Scope note**: this table allocates the plan's Art. 7/13 24.08M sqm ceiling **within the statutory 16.7 km² nine-block area only**, following the "belt–axis–two centers–multiple nodes" structure (Art. 9), to demonstrate feasibility under the hard cap. **It contains no plot-level commitment and no financial or investment data**; final plot indicators await the official charts.
 
-**Within-statutory-area (16.7 km²) allocation:**
+**Mutually-exclusive zoning note**: the four zones below are **mutually exclusive and non-overlapping** — the 16.7 km² statutory area is partitioned by dominant function so that any built capacity is counted in exactly one zone, with no double-counting. The "heritage-park innovation-belt corridor" **counts only the park itself plus its immediately adjacent renewal belt** (no spatial overlap with the two centers); belt-corridor segments falling inside the two centers are already included in their respective center rows and are NOT counted again in the belt row.
 
-| Spatial component | Scenario share (10k sqm) | Share of in-area allocation | Logic |
+**Within-statutory-area (16.7 km²) mutually-exclusive allocation:**
+
+| Mutually-exclusive zone | Scenario share (10k sqm) | Share of in-area allocation | Boundary & logic |
 | --- | --- | --- | --- |
-| Wudaokou center (Origin Community) | 420 | 19.9% | Fold hub: near-campus tech-transfer + talent community with station-area compounding |
-| Dazhongsi center | 380 | 18.0% | Exchange port: station-city integration + data-asset trading carrier |
-| Heritage-park innovation-belt corridor | 520 | 24.7% | Belt: low-rise tech-exchange spaces + renewal carriers (amplified radiation of the official 100万 sqm) |
-| Remaining eight blocks (stock renewal) | 788 | 37.4% | Predominantly stock conversion; strict control over demolition-and-new |
-| **In-statutory-area total** | **2108** | **100%** | ≤ the 24.08M sqm statutory ceiling; no scenario breaches it |
+| Wudaokou center (Origin Community) | 420 | 19.9% | Fold hub: near-campus tech-transfer + talent community with station-area compounding; **includes the belt segment within its extent** |
+| Dazhongsi center | 380 | 18.0% | Exchange port: station-city integration + data-asset trading carrier; **includes the belt segment within its extent** |
+| Heritage-park renewal belt (outside the two centers) | 520 | 24.7% | Low-rise tech-exchange spaces along the park and its adjacent renewal belt (where the official 100万 sqm renewal carrier sits); **does not overlap the two centers** |
+| Remaining blocks stock renewal (outside centers & belt) | 788 | 37.4% | Blocks outside both centers and the belt; predominantly stock conversion, strict control over demolition-and-new |
+| **In-statutory-area total** | **2108** | **100%** | Mutually-exclusive zones sum to 2108 ≤ the 24.08M sqm statutory ceiling |
+
+**No-double-counting check**: the four zones are spatially disjoint by dominant function, each capacity counted once; the two centers sum to 800 (38.0%), the belt renewal zone 520 (24.7%), the remaining blocks 788 (37.4%), totaling 2108 with no double-counting.
 
 **Outside-statutory-area item (NOT counted against the 24.08M sqm ceiling):**
 

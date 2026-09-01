@@ -75,15 +75,15 @@
     },
     "statutory_floor_area_intensity": {
       "status": "known",
-      "value": 1.463,
-      "unit": "10k_sqm_per_ha",
+      "value": 14632,
+      "unit": "sqm_per_ha",
       "source_files": [
         "sources.json"
       ],
-      "formula": "24080000 (控规总建筑规模法定上限, sqm) / 16456000 (控规城乡建设用地, sqm) / 10000",
+      "formula": "24080000 sqm (控规总建筑规模法定上限) / 1645.6 ha (控规城乡建设用地) = 14632 sqm/ha（即 1.463 万㎡/公顷）",
       "confidence": "medium",
       "assumptions": [
-        "法定上限基线推导值（控规文本第7/13条），非方案承诺值；方案任何情景不得突破。"
+        "法定上限基线推导值（控规文本第7/13条），非方案承诺值；方案任何情景不得突破。单位：㎡/公顷；等值表达 14632 ㎡/ha = 1.463 万㎡/ha（无量纲平均容积率口径另行列出时约为 1.463）。"
       ]
     },
     "key_area_count": {
