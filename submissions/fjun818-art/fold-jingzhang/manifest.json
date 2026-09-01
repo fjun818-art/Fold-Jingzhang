@@ -64,7 +64,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "0a73babdce89e028eb16327cac0d18f144914277b51e7958f7df06ec8eb0ab55"
+      "sha256": "450c2a4e93574f5b97f1d37cf511742792e37c5d14732e2f38ebd4f49c9852b5"
     },
     {
       "path": "compliance_matrix.json",
@@ -737,14 +737,14 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "e847071552c271d2e4a7c1f56a3d3c802ae37d95a89222a5ff062eb6a5f92edb"
+      "sha256": "571d4a45e256acfad712da4166a573dbd5c62ba64038e4fd8aa6f7f2df0be1ab"
     },
     {
       "path": "assets/figures/fold-overview.en.png",
       "role": "proposal_figure",
       "required": true,
       "language": "en",
-      "sha256": "e847071552c271d2e4a7c1f56a3d3c802ae37d95a89222a5ff062eb6a5f92edb",
+      "sha256": "571d4a45e256acfad712da4166a573dbd5c62ba64038e4fd8aa6f7f2df0be1ab",
       "translation_of": "assets/figures/fold-overview.png"
     },
     {
