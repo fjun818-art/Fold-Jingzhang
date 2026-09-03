@@ -31,6 +31,8 @@ The originality of the Folding Belt lies not in the cited cases but in a site-sp
 3. **算法贡献指数 + 30% 小团队保留配额**：以"以算法换数据使用权"的分配机制，配公平校正、防集中条款与独立复核申诉，是对公共数据与空间机会分配公平的原创制度设计。An algorithm-contribution index with a 30% small-team quota, fairness correction and independent review — an original institutional design for equitable allocation of public data and spatial opportunity.
 4. **7 个时空折叠点全部锚定控规文保清单的"零物理干预"叙事系统**：把文保约束从限制条件转化为体验资源，用"中缝折叠·双时代对开"的视觉与叙事语言实现遗产的可感知传播。Seven fold nodes anchored to the plan heritage list under a zero-physical-intervention rule, turning heritage constraints into experiential resources.
 
+> 正文 proposal.md/en 另设「原创机制差异矩阵」一节，将上述四组机制与国际参照案例逐项对照并声明首创性边界，与本节互为印证。The main proposal carries an "Originality Differentiation Matrix" section that contrasts these four mechanisms item-by-item against the international references and states the boundary of the originality claim, cross-validating this section.
+
 ---
 
 ## 1. 对标框架与方法 / Benchmarking Framework & Method
