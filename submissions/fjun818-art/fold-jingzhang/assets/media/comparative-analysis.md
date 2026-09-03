@@ -136,21 +136,21 @@ Through this benchmarking round, the Folding Belt has built differentiated advan
 
 ---
 
-## 8. 一致性验证：国家城市数字更新行业指引 / Consistency Verification with the National Guideline
+## 8. 一致性验证：《深化智慧城市发展 推进全域数字化转型行动计划》 / Consistency Verification with the National Digital-Transformation Action Plan
 
-除国际创新街区对标外，本报告将 the Folding Belt 与国家城市全域数字化转型、城市数字更新最新行业指引做一致性验证。以下仅给出**一致性验证结论**，不涉及该指引内部条款细节，亦不引入任何财务或投资数据。
-Beyond international benchmarking, this report verifies the consistency of the Folding Belt with the latest national digital city-renewal guideline. Only the consistency-verification conclusion is given here — no internal clause details and no financial or investment data.
+除国际创新街区对标外，本报告将 the Folding Belt 与《深化智慧城市发展 推进全域数字化转型行动计划》（国家发展改革委、国家数据局、财政部、住房城乡建设部、自然资源部五部门，2025 年 11 月）做一致性验证。以下仅给出**一致性验证结论**，不涉及该文件内部条款细节，亦不引入任何财务或投资数据。该文件为参与方提交、待来源登记复核材料，结论按「参与方提交证据」口径理解。
+Beyond international benchmarking, this report verifies the consistency of the Folding Belt with the *Action Plan on Deepening Smart-City Development and Advancing Whole-Territory Digital Transformation* (five ministries: NDRC, National Data Administration, Ministry of Finance, MOHURD, MNR; November 2025). Only the consistency-verification conclusion is given here — no internal clause details and no financial or investment data. The document is participant-submitted and pending source-registry review.
 
 | 验证维度 | 一致性验证结论 | 状态 |
 | --- | --- | :-: |
-| 场景分类 | 10 个 AI+ 环节全部落入指引的城市数字更新场景体系，无自创场景 | ✅ 一致 |
+| 场景分类 | 10 个 AI+ 环节全部落入行动计划的城市数字更新场景体系，无自创场景 | ✅ 一致 |
 | 总体原则 | 贯彻以人为本、安全可信、数据驱动、同步建设、集约利旧、多元参与、扩展升级、绿色低碳、系统协同 | ✅ 一致 |
-| 数字底座 | 1+3+N 数字孪生底座 + 边缘算力节点 + 京张数据契约，契合指引对城市数字底座的更新要求 | ✅ 一致 |
-| 场景结构 | 各环节按「目标—人群—活动—资源—环境—价值—成效—运营」组织，与指引推荐方式一致 | ✅ 一致 |
+| 数字底座 | 1+3+N 数字孪生底座 + 边缘算力节点 + 京张数据契约，契合行动计划对城市数字底座（基础设施/数据资源/智能中枢）的更新要求 | ✅ 一致 |
+| 场景结构 | 各环节按「目标—人群—活动—资源—环境—价值—成效—运营」组织，与行动计划推荐方式一致 | ✅ 一致 |
 | 运营机制 | 各环节明确运营闭环与可持续路径，均为运营建议，不构成政府投资/审批/收益承诺 | ✅ 一致 |
 
-**结论**：the Folding Belt 场景体系与国家城市数字更新行业指引方向一致、结构兼容、机制可对接，同时通过「国际创新街区对标」（差异化优势）与「国家行业指引一致性验证」（合规与方向）双重校验，兼具前瞻性、合规性与可转化性。
-**Conclusion**: the Folding Belt scenario system is directionally consistent, structurally compatible and operationally connectable with the national digital city-renewal guideline. Passing both the international-district benchmark (differentiation) and the national-guideline consistency check (compliance & direction), it combines foresight, compliance and transferability.
+**结论**：the Folding Belt 场景体系与《深化智慧城市发展 推进全域数字化转型行动计划》方向一致、结构兼容、机制可对接，同时通过「国际创新街区对标」（差异化优势）与「国家行动计划一致性验证」（合规与方向）双重校验，兼具前瞻性、合规性与可转化性。
+**Conclusion**: the Folding Belt scenario system is directionally consistent, structurally compatible and operationally connectable with the national digital-transformation Action Plan. Passing both the international-district benchmark (differentiation) and the Action-Plan consistency check (compliance & direction), it combines foresight, compliance and transferability.
 
 ---
 
