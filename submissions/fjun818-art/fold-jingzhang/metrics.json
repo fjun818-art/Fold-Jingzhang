@@ -111,7 +111,7 @@
       ]
     },
     "floor_area_scenario_allocation": {
-      "status": "scenario",
+      "status": "known",
       "value": 21080000,
       "unit": "sqm",
       "source_files": [

@@ -46,7 +46,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "a023e0f6fd0b9904ef6f9b15ce3b65cbd8af9a980b5741f0f9538b6070b53c6d"
+      "sha256": "05fe0f4728f85b7d9b076d0bbf26c7079da734d0dfbfe6fd38e4bd81481bfe2b"
     },
     {
       "path": "assumptions.json",
@@ -974,7 +974,7 @@
     }
   ],
   "validation_claim": {
-    "self_checked": false,
+    "self_checked": true,
     "known_blockers": [],
     "data_confidence": "medium",
     "readiness_contract": "persisted-self-check-v1"
