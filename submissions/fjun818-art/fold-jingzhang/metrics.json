@@ -80,10 +80,10 @@
       "source_files": [
         "sources.json"
       ],
-      "formula": "24080000 sqm (控规总建筑规模法定上限) / 1645.6 ha (控规城乡建设用地) = 14632 sqm/ha（即 1.463 万㎡/公顷）",
+      "formula": "24080000 sqm (控规总建筑规模上限，待复核) / 1645.6 ha (控规城乡建设用地) = 14632 sqm/ha（即 1.463 万㎡/公顷）",
       "confidence": "medium",
       "assumptions": [
-        "法定上限基线推导值（控规文本第7/13条），非方案承诺值；方案任何情景不得突破。单位：㎡/公顷；等值表达 14632 ㎡/ha = 1.463 万㎡/ha（无量纲平均容积率口径另行列出时约为 1.463）。"
+        "总量上限基线推导值（控规文本第7/13条，参与方提交·待来源登记复核），非方案承诺值；方案任何情景不得突破。单位：㎡/公顷；等值表达 14632 ㎡/ha = 1.463 万㎡/ha（无量纲平均容积率口径另行列出时约为 1.463）。"
       ]
     },
     "key_area_count": {
@@ -104,10 +104,34 @@
       "source_files": [
         "sources.json"
       ],
-      "formula": "控规第7/13条：规划范围总建筑规模法定上限",
-      "confidence": "high",
+      "formula": "控规第7/13条：规划范围总建筑规模上限",
+      "confidence": "medium",
       "assumptions": [
-        "法定上限（source: REGULATORY-PLAN-HD00-1601）；非本方案新建规模。"
+        "总量上限（source: REGULATORY-PLAN-HD00-1601，参与方提交·待来源登记复核）；非本方案新建规模。正式登记通过前按参与方待核文本引用。"
+      ]
+    },
+    "floor_area_scenario_allocation": {
+      "status": "scenario",
+      "value": 21080000,
+      "unit": "sqm",
+      "source_files": [
+        "sources.json"
+      ],
+      "formula": "Σ(分区i分摊) = 420万+380万+520万+788万 = 2108万㎡ ≤ 2408万㎡（总量上限，待复核），余量300万㎡为弹性缓冲；四分区互斥、无重复计量",
+      "confidence": "low",
+      "value_type": "scenario_illustrative_not_commitment",
+      "assumptions": [
+        "方案情景分摊（非承诺值、非地块控制值）：仅论证方案情景在控规总量硬约束内的可行性，不构成任何地块级指标、审批或投资承诺。",
+        "四分区按主导功能互斥切分 16.7 km² 控规范围（九街区）：五道口中心（含其范围内遗址公园路段容量）、大钟寺中心（含其范围内遗址公园路段容量）、遗址公园沿线更新带（两心以外）、其余街区存量更新（两心与一带以外）；任一容量只计入一个分区。",
+        "分区面积不单独给定（待官方图则主导功能分区几何），分摊以各分区主导功能定位×对应强度五级分区（第14条）×6类基准高度（第16条）为约束逻辑，非由分区面积×固定容积率推出。",
+        "可复算性：给定四分区数值后，合计 2108 万㎡ ≤ 2408 万㎡ 由本文件与 scripts/self_check_submission.py 硬编码自检（A-FLOORAREA-001）；分区强度上限以官方图则为准，现阶段为待校准情景。",
+        "触发重算：官方控规图则主导功能分区几何、强度分区或总量口径发布/修订时，四分区数值与几何全部重算并写入 metrics.json 变更记录。"
+      ],
+      "breakdown": [
+        {"zone": "五道口中心（原点社区）", "value_sqm": 4200000, "share_of_allocation": 0.199, "logic": "折叠中枢：近校成果转化+人才社区，叠加轨道站点高强度复合；含其范围内遗址公园路段容量"},
+        {"zone": "大钟寺中心", "value_sqm": 3800000, "share_of_allocation": 0.180, "logic": "流通接口：站城一体化+数据资产交易载体；含其范围内遗址公园路段容量"},
+        {"zone": "遗址公园沿线更新带（两心以外）", "value_sqm": 5200000, "share_of_allocation": 0.247, "logic": "遗址公园本体及两侧紧邻更新带的低矮科创交往空间；与两心不重叠"},
+        {"zone": "其余街区存量更新（两心与一带以外）", "value_sqm": 7880000, "share_of_allocation": 0.374, "logic": "以存量改造为主，拆旧建新严格控制"}
       ]
     },
     "population_baseline": {
@@ -118,9 +142,9 @@
         "sources.json"
       ],
       "formula": "控规文本第7条：规划常住人口共计约36.4万人",
-      "confidence": "high",
+      "confidence": "medium",
       "assumptions": [
-        "虚拟居民模拟分人群基数（source: REGULATORY-PLAN-HD00-1601）。"
+        "虚拟居民模拟分人群基数（source: REGULATORY-PLAN-HD00-1601，参与方提交·待来源登记复核；正式登记通过前按参与方待核文本引用）。"
       ]
     },
     "employment_baseline": {
@@ -131,9 +155,9 @@
         "sources.json"
       ],
       "formula": "控规文本第7条：规划就业岗位共计约39.7万个",
-      "confidence": "high",
+      "confidence": "medium",
       "assumptions": [
-        "产业与设施承载模拟基数（source: REGULATORY-PLAN-HD00-1601）。"
+        "产业与设施承载模拟基数（source: REGULATORY-PLAN-HD00-1601，参与方提交·待来源登记复核；正式登记通过前按参与方待核文本引用）。"
       ]
     },
     "fold_nodes_count": {

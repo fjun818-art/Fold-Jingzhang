@@ -17,6 +17,22 @@ license: "COMMUNITY-DISPLAY-ONLY"
 
 ---
 
+## 0. 原创性定位声明 / Originality Positioning Statement
+
+本节专门说明本报告的原创性边界与 the Folding Belt 的原创贡献所在，避免把对标参照误读为本方案的原创研究。
+
+**对标案例的性质**：下文第 1—7 节列举的国际 AI 创新街区（肯德尔广场、国王十字、科技城、创新城区等）均为**已建成的公开参照案例**，其做法与数据来自公开发表资料，属**方法借鉴与差距比对**，**不是本方案的原创研究内容**，也不构成本方案原创性的来源。These international cases are established public references used for method benchmarking and gap analysis only; they are not original research of this proposal and are not the source of its originality.
+
+**本方案的原创贡献（与对标案例的本质区别）**：the Folding Belt 的原创性不在引用案例，而在**针对京张场地的机制重新组合与治理化表达**，具体为四组相互耦合的原创机制——
+The originality of the Folding Belt lies not in the cited cases but in a site-specific recombination and governance-oriented articulation of mechanisms, in four mutually-coupled original mechanisms:
+
+1. **「物理遗产层—数字孪生层—体验折叠层」三层折叠机制**：把 1909 年京张铁路遗产、1+3+N 数字孪生底座与 7 个时空折叠点的 AR/MR 体验压入同一空间坐标，形成"可计算、可感知、可编辑"的更新范式，区别于对标案例单一的遗产活化或单一的数字园区。A three-layer fold mechanism (heritage / digital-twin / experience) that compresses the 1909 railway heritage, a 1+3+N digital base and seven fold nodes into one spatial coordinate.
+2. **京张数据契约三级清单（L1/L2/L3）**：把控规第 82 条"数据要素市场化配置"实施性深化为开放层/授权层/沙盒层的可操作授权机制，并与空间奖励阶梯挂钩，是数据要素治理与空间激励耦合的原创设计。A three-tier data covenant (L1/L2/L3) operationalizing the plan's data-element clause, coupling data governance with spatial incentives.
+3. **算法贡献指数 + 30% 小团队保留配额**：以"以算法换数据使用权"的分配机制，配公平校正、防集中条款与独立复核申诉，是对公共数据与空间机会分配公平的原创制度设计。An algorithm-contribution index with a 30% small-team quota, fairness correction and independent review — an original institutional design for equitable allocation of public data and spatial opportunity.
+4. **7 个时空折叠点全部锚定控规文保清单的"零物理干预"叙事系统**：把文保约束从限制条件转化为体验资源，用"中缝折叠·双时代对开"的视觉与叙事语言实现遗产的可感知传播。Seven fold nodes anchored to the plan heritage list under a zero-physical-intervention rule, turning heritage constraints into experiential resources.
+
+---
+
 ## 1. 对标框架与方法 / Benchmarking Framework & Method
 
 围绕评审维度（目标契合、功能匹配、产业支撑、场景可感知、空间明确、可转化、长期运营价值），设定 7 项可比指标：
@@ -136,12 +152,12 @@ Through this benchmarking round, the Folding Belt has built differentiated advan
 
 ---
 
-## 8. 一致性验证：《深化智慧城市发展 推进全域数字化转型行动计划》 / Consistency Verification with the National Digital-Transformation Action Plan
+## 8. 一致性核对：《深化智慧城市发展 推进全域数字化转型行动计划》 / Consistency Check with the National Digital-Transformation Action Plan (participant self-review)
 
-除国际创新街区对标外，本报告将 the Folding Belt 与《深化智慧城市发展 推进全域数字化转型行动计划》（国家发展改革委、国家数据局、财政部、住房城乡建设部、自然资源部五部门，2025 年 11 月）做一致性验证。以下仅给出**一致性验证结论**，不涉及该文件内部条款细节，亦不引入任何财务或投资数据。该文件为参与方提交、待来源登记复核材料，结论按「参与方提交证据」口径理解。
-Beyond international benchmarking, this report verifies the consistency of the Folding Belt with the *Action Plan on Deepening Smart-City Development and Advancing Whole-Territory Digital Transformation* (five ministries: NDRC, National Data Administration, Ministry of Finance, MOHURD, MNR; November 2025). Only the consistency-verification conclusion is given here — no internal clause details and no financial or investment data. The document is participant-submitted and pending source-registry review.
+除国际创新街区对标外，本报告将 the Folding Belt 与《深化智慧城市发展 推进全域数字化转型行动计划》（国家发展改革委、国家数据局、财政部、住房城乡建设部、自然资源部五部门，2025 年 11 月）做一致性核对。以下仅给出**一致性核对结论**，不涉及该文件内部条款细节，亦不引入任何财务或投资数据。该文件为参与方提交、待来源登记复核材料，**核对仅为参与方就公开文本的自查比对，非组织方已核验的一致性结论**。
+Beyond international benchmarking, this report checks the consistency of the Folding Belt with the *Action Plan on Deepening Smart-City Development and Advancing Whole-Territory Digital Transformation* (five ministries: NDRC, National Data Administration, Ministry of Finance, MOHURD, MNR; November 2025). Only the consistency-check conclusion is given here — no internal clause details and no financial or investment data. The document is participant-submitted and pending source-registry review; the check is the participant's self-review only.
 
-| 验证维度 | 一致性验证结论 | 状态 |
+| 核对维度 | 一致性核对结论（参与方自查） | 状态 |
 | --- | --- | :-: |
 | 场景分类 | 10 个 AI+ 环节全部落入行动计划的城市数字更新场景体系，无自创场景 | ✅ 一致 |
 | 总体原则 | 贯彻以人为本、安全可信、数据驱动、同步建设、集约利旧、多元参与、扩展升级、绿色低碳、系统协同 | ✅ 一致 |
@@ -149,7 +165,7 @@ Beyond international benchmarking, this report verifies the consistency of the F
 | 场景结构 | 各环节按「目标—人群—活动—资源—环境—价值—成效—运营」组织，与行动计划推荐方式一致 | ✅ 一致 |
 | 运营机制 | 各环节明确运营闭环与可持续路径，均为运营建议，不构成政府投资/审批/收益承诺 | ✅ 一致 |
 
-**结论**：the Folding Belt 场景体系与《深化智慧城市发展 推进全域数字化转型行动计划》方向一致、结构兼容、机制可对接，同时通过「国际创新街区对标」（差异化优势）与「国家行动计划一致性验证」（合规与方向）双重校验，兼具前瞻性、合规性与可转化性。
+**结论**：the Folding Belt 场景体系与《深化智慧城市发展 推进全域数字化转型行动计划》方向一致、结构兼容、机制可对接，同时通过「国际创新街区对标」（差异化优势）与「国家行动计划一致性核对」（合规与方向）双重校验，兼具前瞻性、合规性与可转化性。
 **Conclusion**: the Folding Belt scenario system is directionally consistent, structurally compatible and operationally connectable with the national digital-transformation Action Plan. Passing both the international-district benchmark (differentiation) and the Action-Plan consistency check (compliance & direction), it combines foresight, compliance and transferability.
 
 ---
